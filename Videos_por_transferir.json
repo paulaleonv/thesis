@@ -1,0 +1,1033 @@
+
+
+{
+  "id": "natgeo_plants_flowers_industry_light_red.mp4",
+  "color": ["white","grey","green","red"],
+  "topic": ["industrialization","nature","people"],
+  "emotion": ["alienation"],
+  "sequencePosition": ["beggining","development"],
+  "tags": ["industry","fabric","man","plants","flowers"],
+  "start" : 1,
+  "end" : 20
+},
+
+{
+  "id": "natgeo_plants_industry_green_white.mp4",
+  "color": ["white","grey","green","black"],
+  "topic": ["industrialization","nature","food"],
+  "emotion": ["alienation"],
+  "sequencePosition": ["beggining","development"],
+  "tags": ["industry","fabric","plants"],
+  "start" : 2,
+  "end" : 10
+},
+{
+  "id": "natgeo_sand_landscape_grey_brown_yellow.mp4",
+  "color": ["white","yellow","brown ","black"],
+  "topic": ["industrialization","nature"],
+  "emotion": ["alienation"],
+  "sequencePosition": ["beggining","development"],
+  "tags": ["desert","geometry","fabric","industry"],
+  "start" : 1,
+  "end" : 8
+},
+
+{
+  "id": "nicolecostany_IndustrialLandscape_white_grey_green.mp4",
+  "color": ["white","green","brown","black","grey"],
+  "topic": ["industrialization","cities"],
+  "emotion": ["alienation"],
+  "sequencePosition": ["beggining","development","preending"],
+  "tags": ["city","fabric","industry","cars"],
+  "start" : 2,
+  "end" : 12
+},
+
+{
+  "id": "nortonmaza_rpineter_industrial_series_paintings.mp4",
+  "color": ["white","brown","black","grey"],
+  "topic": ["industrialization","cities","art"],
+  "emotion": ["reproduction","production"],
+  "sequencePosition": ["development","symbolicElement"],
+  "tags": ["fabric","industry","art", "printing"],
+  "start" : 0,
+  "end" : 7
+},
+
+{
+  "id": "natgeo_industrizalized_city_black_red.mp4",
+  "color": ["green","grey","black","white"],
+  "topic": ["industrialization","nature","landscapes"],
+  "emotion": ["serial","enclosure","alienation","production"],
+  "sequencePosition": ["development","preending"],
+  "tags": ["smoke","industry","fabric","serial","fog","city"],
+  "start" : 0,
+  "end" : 14
+},
+
+{
+  "id": "natgeo_insdustry.mp4",
+  "color": ["white","blue","black","grey"],
+  "topic": ["industrialization"],
+  "emotion": ["reproduction","production"],
+  "sequencePosition": ["development"],
+  "tags": ["fabric","industry","machine", "moving"],
+  "start" : 0,
+  "end" : 6
+},
+
+{
+  "id": "natgeo_cavern_stones_grey.mp4",
+  "color": ["white","brown","black","grey"],
+  "topic": ["nature"],
+  "emotion": ["mystery","curiosity", "adventure","unknown"],
+  "sequencePosition": ["beginning"],
+  "tags": ["cavern","tunnel","mountain"],
+  "start" : 1,
+  "end" : 20
+},
+
+{
+  "id": "matiascamusj_building_house_black_blue.mp4",
+  "color": ["white","brown","black","grey","green","blue"],
+  "topic": ["nature"],
+  "emotion": ["building","creating"],
+  "sequencePosition": ["beginning"],
+  "tags": ["house","building","man"],
+  "start" : 0,
+  "end" : 4
+},
+
+{
+  "id": "lisimannn_land_carpet_white_black.mp4",
+  "color": ["white","black","grey"],
+  "topic": ["nature"],
+  "emotion": ["mystery"],
+  "sequencePosition": ["symbolicElement","preending"],
+  "tags": ["mountain","carpet"],
+  "start" : 1,
+  "end" : 4
+},
+
+{
+  "id": "lisimannn_clouds_white.mp4",
+  "color": ["white","black"],
+  "topic": ["nature"],
+  "emotion": ["mystery"],
+  "sequencePosition": ["development","symbolicElement","preending"],
+  "tags": ["clouds","sky"],
+  "start" : 1,
+  "end" : 4
+},
+
+{
+  "id": "lisimannn_circle_ball_white_blue.mp4",
+  "color": ["white","grey","blue"],
+  "topic": ["nature","landscapes"],
+  "emotion": ["mystery"],
+  "sequencePosition": ["development","symbolicElement","preending"],
+  "tags": ["clouds","sky","ball","falling"],
+  "start" : 1,
+  "end" : 4
+},
+
+{
+  "id": "lisimannn_buda_circles_white.mp4",
+  "color": ["white","grey","red"],
+  "topic": ["symbolicElement"],
+  "emotion": ["mystery","mystical","focus"],
+  "sequencePosition": ["symbolicElement"],
+  "tags": ["clouds","sky","ball","buda"],
+  "start" : 1,
+  "end" : 9
+},
+
+
+{
+  "id": "giulifungi_light_fungi_black_white_blue.mp4",
+  "color": ["white","grey","blue","black"],
+  "topic": ["symbolicElement","nature"],
+  "emotion": ["mystical"],
+  "sequencePosition": ["symbolicElement"],
+  "tags": ["fungus","light"],
+  "start" : 1,
+  "end" : 7
+},
+
+{
+  "id": "brunatruffa_chinesse_cats_greeting_white_yellow.mp4",
+  "color": ["white","yellow","golden"],
+  "topic": ["symbolicElement"],
+  "emotion": ["mystical"],
+  "sequencePosition": ["symbolicElement"],
+  "tags": ["cats","objects","store"],
+  "start" : 1,
+  "end" : 4.5
+},
+
+{
+  "id": "lisimannn_water_cicle_black_blue.mp4",
+  "color": ["white","blue","black","grey"],
+  "topic": ["symbolicElement","nature","ocean"],
+  "emotion": ["mystical"],
+  "sequencePosition": ["symbolicElement"],
+  "tags": ["ball","ocean","sea","moon"],
+  "start" : 1,
+  "end" : 9
+},
+
+{
+  "id": "discoverocean_amantarrayas_jumping_ocean_blue_black_white.mp4",
+  "color": ["white","blue","black","grey"],
+  "topic": ["symbolicElement","nature","ocean"],
+  "emotion": ["mystical","pleasure","freedom"],
+  "sequencePosition": ["symbolicElement"],
+  "tags": ["stingrey","ocean","sea","playing","jumping"],
+  "start" : 1,
+  "end" : 30
+},
+
+{
+  "id": "discoverocean_beach_fishes_playing_white_blue.mp4",
+  "color": ["white","blue","grey"],
+  "topic": ["beach","nature","ocean"],
+  "emotion": ["eating","playing"],
+  "sequencePosition": ["symbolicElement","preending"],
+  "tags": ["fish","ocean","sea","playing"],
+  "start" : 1,
+  "end" : 12
+},
+
+{
+  "id": "discoverocean_crab_sand_brown_white_red.mp4",
+  "color": ["white","red","grey","brown"],
+  "topic": ["beach","nature","ocean","animals"],
+  "emotion": ["effort"],
+  "sequencePosition": ["beggining"],
+  "tags": ["fish","ocean","sea","playing"],
+  "start" : 1,
+  "end" : 12
+},
+
+{
+  "id": "discoverocean_crab_sand_brown_white_red.mp4",
+  "color": ["white","red","grey","brown"],
+  "topic": ["beach","nature","ocean","animals"],
+  "emotion": ["effort"],
+  "sequencePosition": ["symbolicElement","preending"],
+  "tags": ["fish","ocean","sea","playing"],
+  "start" : 20,
+  "end" : 54
+},
+
+{
+  "id": "discoverocean_troop_dolphins_black_blue.mp4",
+  "color": ["white","black","grey","blue"],
+  "topic": ["beach","nature","ocean","animals","crowds"],
+  "emotion": ["collective","beauty"],
+  "sequencePosition": ["symbolicElement","climax","preending"],
+  "tags": ["fish","ocean","sea","playing","sunset","dolphins"],
+  "start" : 0,
+  "end" : 17
+},
+
+{
+  "id": "giulifungi_ocean_sea_black_white_blue.mp4",
+  "color": ["white","black","grey","blue"],
+  "topic": ["beach","nature","ocean"],
+  "emotion": ["unknown","beauty"],
+  "sequencePosition": ["beggining","development"],
+  "tags": ["ocean","sea","waves","sunset"],
+  "start" : 1,
+  "end" : 17
+},
+
+{
+  "id": "manuelavieragallo_oceanByNight.mp4",
+  "color": ["black","blue"],
+  "topic": ["beach","ocean"],
+  "emotion": ["unknown","beauty"],
+  "sequencePosition": ["beggining","development"],
+  "tags": ["ocean","sea","waves","night"],
+  "start" : 1,
+  "end" : 13
+},
+
+{
+  "id": "manuelavieragallo_oceanByNight.mp4",
+  "color": ["black","blue","grey","white"],
+  "topic": ["beach","ocean","animals","nature"],
+  "emotion": ["pleasure","playing","tenderness"],
+  "sequencePosition": ["climax","development"],
+  "tags": ["sand","waves","dolphins","sea","fish"],
+  "start" : 1,
+  "end" : 16
+},
+
+{
+  "id": "natgeo_ocean_boat_storm_blue_grey_white.mp4",
+  "color": ["black","blue","grey","white","brown"],
+  "topic": ["beach","ocean","boat"],
+  "emotion": ["pleasure","unknown","adventure","extreme"],
+  "sequencePosition": ["beggining","development"],
+  "tags": ["boat","waves","sea","storm"],
+  "start" : 1,
+  "end" : 12
+},
+
+{
+  "id": "natgeo_ocean_sunset_red_black.mp4",
+  "color": ["black","blue","grey","white","red"],
+  "topic": ["beach","ocean"],
+  "emotion": ["pleasure","romantic","unknown"],
+  "sequencePosition": ["development","symbolicElement"],
+  "tags": ["sunset","waves","sea","storm","intensity"],
+  "start" : 1,
+  "end" : 12
+},
+
+{
+  "id": "natgeo_window_boat_ocean_black_grey_white_blue.mp4",
+  "color": ["black","blue","grey","white","green"],
+  "topic": ["ocean","boat"],
+  "emotion": ["extreme","dizzie","unknown","risk"],
+  "sequencePosition": ["climax","preending"],
+  "tags": ["waves","sea","storm","intensity"],
+  "start" : 2,
+  "end" : 13
+},
+
+{
+  "id": "xx_beach_crowd_people.mp4",
+  "color": ["black","blue","grey","white","brown"],
+  "topic": ["beach","crowds","people"],
+  "emotion": ["collective","adventure","fun","pleasure","sharing"],
+  "sequencePosition": ["beggining","development"],
+  "tags": ["waves","sea","people"],
+  "start" : 2,
+  "end" : 20
+},
+
+{
+  "id": "xx_beach_crowd_people.mp4",
+  "color": ["black","blue","grey","white","brown"],
+  "topic": ["beach","crowds","people"],
+  "emotion": ["collective","adventure","fun","pleasure","sharing"],
+  "sequencePosition": ["preending"],
+  "tags": ["waves","sea","people"],
+  "start" : 27,
+  "end" : 42
+},
+
+{
+  "id": "natgeo_big_crowd_city_black_golden_yellow_grey.mp4",
+  "color": ["black","golden","yellow","grey","white","brown"],
+  "topic": ["cities"],
+  "emotion": ["collective","adventure","History","story"],
+  "sequencePosition": ["beggining"],
+  "tags": ["city","house","overview"],
+  "start" : 2,
+  "end" : 13
+},
+
+{
+  "id": "hernanriveraluque_rain_snow_brown_white.mp4",
+  "color": ["black","grey","white","brown"],
+  "topic": ["cities","snow","storm"],
+  "emotion": ["collective","adventure","History","story"],
+  "sequencePosition": ["development"],
+  "tags": ["city","house","building","snow","rain","storm","newYork","brooklyn"],
+  "start" : 2,
+  "end" : 13
+},
+
+{
+  "id": "graciosita_snowing_heart.mp4",
+  "color": ["black","grey","white"],
+  "topic": ["cities","snow","storm","nature"],
+  "emotion": ["warm","cold","sharing"],
+  "sequencePosition": ["development","preending"],
+  "tags": ["city","house","garden","snow","rain","storm","newYork","brooklyn"],
+  "start" : 0,
+  "end" : 14
+},
+
+
+{
+  "id": "josetorresleiva_trees_Wind.mp4",
+  "color": ["black","grey","white"],
+  "topic": ["storm","nature"],
+  "emotion": ["warm","cold","unknown"],
+  "sequencePosition": ["development","symbolicElement","preending"],
+  "tags": ["wind","trees","clouds","storm","beach"],
+  "start" : 0,
+  "end" : 25
+},
+
+
+
+{
+  "id": "natgeo_boat_ocean_storm_water_grey_blue_white.mp4",
+  "color": ["black","grey","white","blue"],
+  "topic": ["storm","nature","boat","ocean","people","water"],
+  "emotion": ["warm","cold","unknown"],
+  "sequencePosition": ["development","symbolicElement","preending"],
+  "tags": ["wind","rays","clouds","storm","sea","men"],
+  "start" : 2,
+  "end" : 16
+},
+
+{
+  "id": "natgeo_boat_sea_storm.mp4",
+  "color": ["black","grey","white","blue","brown"],
+  "topic": ["storm","nature","boat","ocean","water"],
+  "emotion": ["scary","cold","unknown","risk"],
+  "sequencePosition": ["development","symbolicElement","preending"],
+  "tags": ["wind","waves","clouds","storm","sea","earthquake"],
+  "start" : 2,
+  "end" : 32
+},
+
+{
+  "id": "natgeo_boat_sea_white_blue.mp4",
+  "color": ["black","grey","white","blue"],
+  "topic": ["storm","nature","boat","ocean","water"],
+  "emotion": ["scary","cold","unknown","risk"],
+  "sequencePosition": ["development"],
+  "tags": ["wind","waves","clouds","storm","sea","earthquake","water"],
+  "start" : 1,
+  "end" : 12
+},
+
+{
+  "id": "natgeo_boat_water_white_blue.mp4",
+  "color": ["black","grey","white","blue"],
+  "topic": ["storm","nature","boat","ocean","water"],
+  "emotion": ["scary","cold","unknown","risk"],
+  "sequencePosition": ["development","symbolicElement","climax","preending"],
+  "tags": ["wind","waves","clouds","storm","sea","water"],
+  "start" : 1,
+  "end" : 32
+},
+
+{
+  "id": "natgeo_snow_animals_moved_white_grey.mp4",
+  "color": ["black","grey","white","blue"],
+  "topic": ["storm","nature","animals"],
+  "emotion": ["beauty","cold","unknown","trip","adventure"],
+  "sequencePosition": ["beggining","development","preending"],
+  "tags": ["sled","mountain","snow","man","trip","animals"],
+  "start" : 0,
+  "end" : 8
+},
+
+{
+  "id": "natgeo_snow_storm copy.mp4",
+  "color": ["black","grey","white","red"],
+  "topic": ["storm","nature","snow"],
+  "emotion": ["risk","unknown"],
+  "sequencePosition": ["development","preending"],
+  "tags": ["snow","water","strenght"],
+  "start" : 0,
+  "end" : 24
+},
+
+{
+  "id": "paulasubx_snow_paper_white_silver_grey.mp4",
+  "color": ["black","grey","white"],
+  "topic": ["storm","nature","snow","symbolicElement"],
+  "emotion": ["contemplation","unknown"],
+  "sequencePosition": ["symbolicElement"],
+  "tags": ["snow","wind","paper","hang","silver"],
+  "start" : 2,
+  "end" : 13
+},
+
+{
+  "id": "nortonmaza_night_rays_storm_black_white.mp4",
+  "color": ["black","grey","white"],
+  "topic": ["storm","cities"],
+  "emotion": ["contemplation","unknown","scary"],
+  "sequencePosition": ["development","climax","preending"],
+  "tags": ["ray","wind","rain","sky"],
+  "start" : 0,
+  "end" : 7
+},
+
+
+{
+  "id": "natgeo_snow_storm.mp4",
+  "color": ["black","grey","white","green"],
+  "topic": ["storm","nature","people"],
+  "emotion": ["risk","action","scary"],
+  "sequencePosition": ["development","climax","preending"],
+  "tags": ["snow","wind","rain","house","woman"],
+  "start" : 1,
+  "end" : 18
+},
+
+
+{
+  "id": "nicolecostany_night.mp4",
+  "color": ["black","grey","white","blue"],
+  "topic": ["storm","cities"],
+  "emotion": ["contemplation","unknown","scary"],
+  "sequencePosition": ["development"],
+  "tags": ["ray","wind","rain","sky"],
+  "start" : 0,
+  "end" : 4
+},
+
+
+{
+  "id": "nortonmaza_rain_black_green_brown.mp4",
+  "color": ["black","grey","white","green"],
+  "topic": ["storm","nature","cities","water"],
+  "emotion": ["risk","warm"],
+  "sequencePosition": ["development","preending"],
+  "tags": ["cars","wind","rain","house","window","city"],
+  "start" : 0,
+  "end" : 7
+},
+
+{
+  "id": "nortonmaza_rain_winter_green.mp4",
+  "color": ["black","grey","white","green","brown"],
+  "topic": ["storm","nature","cities","water"],
+  "emotion": ["sadness","loneliness"],
+  "sequencePosition": ["beggining","development"],
+  "tags": ["wind","rain","trees","water","city"],
+  "start" : 0,
+  "end" : 7
+},
+
+
+
+
+{
+  "id": "natgeo_snow_storm.mp4",
+  "color": ["black","grey","white","green"],
+  "topic": ["storm","nature","people"],
+  "emotion": ["risk","action","scary"],
+  "sequencePosition": ["development","climax","preending"],
+  "tags": ["snow","wind","rain","house","woman"],
+  "start" : ["0"],
+  "end" : ["4"]
+},
+
+
+{
+  "id": "enriqueramirezf_woman_mother_walking.mp4",
+  "color": ["black","brown","grey","golden"],
+  "topic": ["people","cities"],
+  "emotion": ["nostalgic","unknown"],
+  "sequencePosition": ["beginning","development","preending"],
+  "tags": ["snow","wind","rain","house","woman"],
+  "start" : 1,
+  "end" : 8
+},
+
+{
+  "id": "mariasiebald_oldWomanInBed.mp4",
+  "color": ["black","brown","grey","white"],
+  "topic": ["people","cities","house"],
+  "emotion": ["nostalgic","unknown","old","sick","death"],
+  "sequencePosition": ["preending","ending"],
+  "tags": ["woman","wind","bed","house","grandmother","window","curtain"],
+  "start" : 1,
+  "end" : 8
+},
+
+{
+  "id": "mariasiebald_parejaPark_exercise.mp4",
+  "color": ["black","brown","green","white","grey"],
+  "topic": ["people","cities","love"],
+  "emotion": ["romantic","erotic","playing","humor"],
+  "sequencePosition": ["development","climax"],
+  "tags": ["woman","man","couple","park","night","game","city"],
+  "start" : 0,
+  "end" : 4
+},
+
+{
+  "id": "matiasbize_pareja.mp4",
+  "color": ["brown","white","grey"],
+  "topic": ["people","cities","love"],
+  "emotion": ["romantic","erotic","playing","sexy","flirting"],
+  "sequencePosition": ["development","climax","preending"],
+  "tags": ["woman","man","couple","house","kitchen","game","city"],
+  "start" : 0,
+  "end" : 14
+},
+
+{
+  "id": "matiascamusj_stones_person_jumping.mp4",
+  "color": ["brown","white","grey","blue","red"],
+  "topic": ["people","nature"],
+  "emotion": ["risk","playing","hangingOut"],
+  "sequencePosition": ["development","climax","preending"],
+  "tags": ["man","stones","mountain","jumping"],
+  "start" : 1,
+  "end" : 12
+},
+
+{
+  "id": "natgeo_cave_cavern_trap_brown_yellow.mp4",
+  "color": ["brown","white","yellow","black","grey"],
+  "topic": ["people","nature"],
+  "emotion": ["risk","capture","enclosure"],
+  "sequencePosition": ["beggining","development","climax","preending"],
+  "tags": ["man","stones","mountain","cavern","tunnel"],
+  "start" : 0,
+  "end" : 12
+},
+
+{
+  "id": "natgeo_ice_skating.mp4",
+  "color": ["black","white","grey"],
+  "topic": ["people","nature","love","cities","snow","crowds"],
+  "emotion": ["risk","dancing","pleasure","love","erotic","romantic","fun","skating"],
+  "sequencePosition": ["beggining","development","climax","preending"],
+  "tags": ["woman","ice","skating","dancing","playing","field"],
+  "start" : 0,
+  "end" : 15
+},
+{
+  "id": "nicolecostany_22362516_colorWall_HappyJump.mp4",
+  "color": ["red","white","yellow","black","grey","blue"],
+  "topic": ["people","cities","love"],
+  "emotion": ["pleasure","erotic","romantic","fun","playing","risk"],
+  "sequencePosition": ["development","climax","preending"],
+  "tags": ["woman","city","wall","cloth","jump","color"],
+  "start" : 2,
+  "end" : 10
+},
+
+{
+  "id": "nicolecostany_friendInBoat_green_Water_white.mp4",
+  "color": ["green","white","black","grey"],
+  "topic": ["people","nature","love","boat"],
+  "emotion": ["pleasure","trip","friends","fun"],
+  "sequencePosition": ["development"],
+  "tags": ["woman","lake","boat","forest","couple","friends"],
+  "start" : 0,
+  "end" : 8
+},
+
+{
+  "id": "nicolecostany_womantakingpicture_ducks_blue_grey.mp4",
+  "color": ["white","brown","black","grey","blue"],
+  "topic": ["people","cities","nature"],
+  "emotion": ["trip","mystery"],
+  "sequencePosition": ["development","preending"],
+  "tags": ["woman","city","lake","camera","duck","picture"],
+  "start" : 1,
+  "end" : 10
+},
+
+{
+  "id": "panchof_man_door_black.mp4",
+  "color": ["white","brown","black","grey","blue"],
+  "topic": ["people","cities"],
+  "emotion": ["trip","mystery","robbery"],
+  "sequencePosition": ["development","preending"],
+  "tags": ["man","city","door","bank"],
+  "start" : 1,
+  "end" : 9
+},
+
+{
+  "id": "the.gypsyogi_man_trompet_subway.mp4",
+  "color": ["white","brown","black","grey","golden"],
+  "topic": ["people","cities","music"],
+  "emotion": ["trip","playing","joy"],
+  "sequencePosition": ["climax","preending"],
+  "tags": ["man","musician","trumpet","subway","city"],
+  "start" : 2,
+  "end" : 10
+},
+
+{
+  "id": "nicolecostany_NicolewalkingFX.mp4",
+  "color": ["white","red","black","grey"],
+  "topic": ["people","cities","music"],
+  "emotion": ["trip","playing","joy","extrange"],
+  "sequencePosition": ["development","climax","preending"],
+  "tags": ["woman","arquitecture","circle"],
+  "start" : 6,
+  "end" : 16
+},
+
+{
+  "id": "nicolecostany_NicolewalkingFX.mp4",
+  "color": ["white","red","black","grey"],
+  "topic": ["people","cities","music"],
+  "emotion": ["trip","playing","joy","extrange"],
+  "sequencePosition": ["climax","preending","ending"],
+  "tags": ["woman","arquitecture","circle"],
+  "start" : 17,
+  "end" : 30
+},
+
+{
+  "id": "nicolecostany_womanDancingFunny.mp4",
+  "color": ["white","brown","black"],
+  "topic": ["people","cities","music"],
+  "emotion": ["playing","conversation"],
+  "sequencePosition": ["development"],
+  "tags": ["woman","restaurant","dancing"],
+  "start" : 1,
+  "end" : 7
+},
+
+{
+  "id": "matiasbize_pianoPinkFloyd.mp4",
+  "color": ["white","brown","black","grey"],
+  "topic": ["people","cities","music"],
+  "emotion": ["playing","mistery"],
+  "sequencePosition": ["preending"],
+  "tags": ["man","piano","organ","dancing","pinkFloyd"],
+  "start" : 18,
+  "end" : 42
+},
+
+{
+  "id": "josetorresleiva_curtain_texture.mp4",
+  "color": ["white","brown","black","grey"],
+  "topic": ["cities","house"],
+  "emotion": ["quiet","mistery"],
+  "sequencePosition": ["preending"],
+  "tags": ["abstract","window","light","curtain","wind"],
+  "start" : 2,
+  "end" : 10
+},
+
+{
+  "id": "lisimannn_birthday_candles_black.mp4",
+  "color": ["white","brown","black","yellow"],
+  "topic": ["cities","house","rite","people"],
+  "emotion": ["celebration","time"],
+  "sequencePosition": ["development"],
+  "tags": ["table","cake","candle","people","crowd"],
+  "start" : 0,
+  "end" : 5
+},
+
+{
+  "id": "pepasanmartin_Yolanda_sultana_magic_fire_red.mp4",
+  "color": ["white","brown","black","red"],
+  "topic": ["cities","house","rite","people","fire"],
+  "emotion": ["praying","humor"],
+  "sequencePosition": ["climax"],
+  "tags": ["fire","woman","house","rite","fire"],
+  "start" : 1,
+  "end" : 9
+},
+
+
+{
+  "id": "silvanamessinamandelsaft_ceremonyBuda.mp4",
+  "color": ["white","brown","black","green","golden"],
+  "topic": ["nature","rite","people","crowds"],
+  "emotion": ["praying","religion"],
+  "sequencePosition": ["development","ending"],
+  "tags": ["buda","forest","kids","rite","people"],
+  "start" : 4,
+  "end" : 14
+},
+
+{
+  "id": "the.gypsyogi_mountain_people_music_flaute.mp4",
+  "color": ["white","brown","black","grey","green","blue"],
+  "topic": ["nature","rite","people","crowds","music"],
+  "emotion": ["sharing","peace","hangingOut"],
+  "sequencePosition": ["beginning","development","ending"],
+  "tags": ["mountain","stones","friends","rite","people","group"],
+  "start" : 3,
+  "end" : 16
+},
+
+{
+  "id": "silvanamessinamandelsaft_clothMovingWind.mp4",
+  "color": ["white","brown","grey","red"],
+  "topic": ["house","symbolicElement","objects"],
+  "emotion": ["moment","unknown","peace","curiosity"],
+  "sequencePosition": ["development","symbolicElement"],
+  "tags": ["cloth","wind","house","jacket"],
+  "start" : 4,
+  "end" : 14
+},
+
+{
+  "id": "silvanamessinamandelsaft_clothHEartWind.mp4",
+  "color": ["white","brown","grey","green","red"],
+  "topic": ["cities","symbolicElement","objects"],
+  "emotion": ["moment","love","peace","romantic"],
+  "sequencePosition": ["symbolicElement","ending"],
+  "tags": ["cloth","wind","house","heart","city"],
+  "start" : 3,
+  "end" : 10
+},
+
+{
+  "id": "nortonmaza_lucesSicodeliaDiscotequenegro_azul_blanco.mp4",
+  "color": ["white","blue","black"],
+  "topic": ["cities","symbolicElement","objects","party"],
+  "emotion": ["party","performance"],
+  "sequencePosition": ["symbolicElement"],
+  "tags": ["light","abstract","shape","square","party","performance"],
+  "start" : 3,
+  "end" : 9
+},
+
+{
+  "id": "nortonmaza_Franklin_carousel_beautiful.mp4",
+  "color": ["white","brown","black","grey"],
+  "topic": ["cities","symbolicElement","objects","animals"],
+  "emotion": ["funny","tenderness","games"],
+  "sequencePosition": ["development","symbolicElement","preending"],
+  "tags": ["animals","objects","market","games","animals"],
+  "start" : 0,
+  "end" : 15
+},
+
+{
+  "id": "nicolecostany_ufoLIght.mp4",
+  "color": ["white","purple","black"],
+  "topic": ["cities","symbolicElement","objects"],
+  "emotion": ["mystery","et","ovni"],
+  "sequencePosition": ["development","symbolicElement","preending"],
+  "tags": ["light","abstract","shape","ovni","et","night"],
+  "start" : 2,
+  "end" : 14
+},
+
+
+
+{
+  "id": "nicolecostany_squirelSHIT_red.mp4",
+  "color": ["white","red","black","brown"],
+  "topic": ["cities","symbolicElement","objects","animals"],
+  "emotion": ["violence"],
+  "sequencePosition": ["development","symbolicElement","preending"],
+  "tags": ["light","squirrel","animal","shit","party","night","discotheque"],
+  "start" : 1,
+  "end" : 10
+},
+
+{
+  "id": "nicolecostany_nakedMonalisa.mp4",
+  "color": ["white","brown","black"],
+  "topic": ["symbolicElement","people"],
+  "emotion": ["mystery","erotism"],
+  "sequencePosition": ["symbolicElement","abstract"],
+  "tags": ["nude","woman","man","tits","night","mystery","erotism"],
+  "start" : 2,
+  "end" : 9
+},
+
+{
+  "id": "natgeo_cloth_wind_colors.mp4",
+  "color": ["white","brown","black","red","yellow"],
+  "topic": ["symbolicElement","objects","cities"],
+  "emotion": ["beauty","erotism"],
+  "sequencePosition": ["beggining","development","symbolicElement","ending"],
+  "tags": ["cloth","colors","wind","city"],
+  "start" : 2,
+  "end" : 9
+},
+
+{
+  "id": "natgeo_cavern_paintings.mp4",
+  "color": ["white","brown","black","yellow"],
+  "topic": ["symbolicElement","objects","nature","art","animals"],
+  "emotion": ["beauty","old"],
+  "sequencePosition": ["beggining","development","symbolicElement","ending"],
+  "tags": ["wall","cavern","paintings","animals"],
+  "start" : 4,
+  "end" : 13
+},
+
+{
+  "id": "mariasiebald_middleFingerUpPurpleAnimation.mp4",
+  "color": ["grey","purple","black"],
+  "topic": ["symbolicElement","objects"],
+  "emotion": ["anger","rage"],
+  "sequencePosition": ["symbolicElement","ending"],
+  "tags": ["screen","finger","gesture","hand"],
+  "start" : 2,
+  "end" : 10
+},
+
+{
+  "id": "mariasiebald_bocaHablando.mp4",
+  "color": ["grey","white","black"],
+  "topic": ["symbolicElement","people"],
+  "emotion": ["humor","conversation","dialogue"],
+  "sequencePosition": ["symbolicElement","ending"],
+  "tags": ["mouse","teeth","gesture","face"],
+  "start" : 1,
+  "end" : 7
+},
+
+{
+  "id": "mariaperlitamusica_retroescavadora_nakedWoman.mp4",
+  "color": ["grey","white","black","green","red"],
+  "topic": ["industrialization","symbolicElement","people","nature"],
+  "emotion": ["mystery","strange"],
+  "sequencePosition": ["beggining","development","symbolicElement"],
+  "tags": ["woman","nude","body","machine","grass","nature"],
+  "start" : 1,
+  "end" : 10
+},
+
+{
+  "id": "lelioseb_zapatoRojoLuces.mp4",
+  "color": ["grey","white","black","red"],
+  "topic": ["cities","symbolicElement","objects"],
+  "emotion": ["erotic","adventure"],
+  "sequencePosition": ["symbolicElement"],
+  "tags": ["shoe","lights","object","femenine"],
+  "start" : 1,
+  "end" : 12
+},
+
+{
+  "id": "lelioseb_notebook.mp4",
+  "color": ["grey","white","black"],
+  "topic": ["symbolicElement","objects"],
+  "emotion": ["work","curiosity"],
+  "sequencePosition": ["symbolicElement"],
+  "tags": ["notebook","letters","text","hands"],
+  "start" : 1,
+  "end" : 7
+},
+
+{
+  "id": "lelioseb_cristalWindow.mp4",
+  "color": ["grey","white","black"],
+  "topic": ["symbolicElement","objects","cities"],
+  "emotion": ["mystery","beauty","erotic"],
+  "sequencePosition": ["symbolicElement"],
+  "tags": ["light","city","crystal","window","house","city"],
+  "start" : 1,
+  "end" : 4
+},
+
+
+{
+  "id": "hernanriveraluque_flag_red_blue.mp4",
+  "color": ["blue","red"],
+  "topic": ["symbolicElement","objects","cities"],
+  "emotion": ["politics","identity"],
+  "sequencePosition": ["symbolicElement"],
+  "tags": ["flag","sky","wind","cloth"],
+  "start" : 1,
+  "end" : 4
+},
+
+{
+  "id": "enriqueramirezf_calaberaLights_black_red.mp4",
+  "color": ["grey","white","black","red"],
+  "topic": ["symbolicElement","objects","death"],
+  "emotion": ["nerve","tension"],
+  "sequencePosition": ["symbolicElement"],
+  "tags": ["body","light","eyes","skull"],
+  "start" : 1,
+  "end" : 7
+},
+
+
+{
+  "id": "diluvio_cine_strangeMultipleFaces.mp4",
+  "color": ["grey","green","black","red"],
+  "topic": ["symbolicElement","objects","people"],
+  "emotion": ["nerve","tension","strange"],
+  "sequencePosition": ["beggining","development","symbolicElement"],
+  "tags": ["body","light","faces","dolls"],
+  "start" : 1,
+  "end" : 9
+},
+
+{
+  "id": "cristobal_leon__treeDall_white_black_yellow.mp4",
+  "color": ["grey","yellow","black","white"],
+  "topic": ["symbolicElement","objects","art"],
+  "emotion": ["tension","strange"],
+  "sequencePosition": ["beggining","development","symbolicElement"],
+  "tags": ["body","tree","dolls"],
+  "start" : 1,
+  "end" : 9
+},
+
+
+
+{
+  "id": "cristobal_leon__SadClownInScreen.mp4",
+  "color": ["grey","green","black"],
+  "topic": ["symbolicElement","people"],
+  "emotion": ["strange"],
+  "sequencePosition": ["symbolicElement"],
+  "tags": ["clown","screen","faces","technology"],
+  "start" : 10,
+  "end" : 20
+},
+
+{
+  "id": "benzarreta_caleidoscopio.mp4",
+  "color": ["grey","white","black","brown"],
+  "topic": ["symbolicElement","object"],
+  "emotion": ["strange","beauty"],
+  "sequencePosition": ["symbolicElement","abstract"],
+  "tags": ["caleidoscope","crystal","faces","shapes","abstract","strange","beauty"],
+  "start" : 1,
+  "end" : 9,
+  "sound1": true
+},
+
+{
+  "id": "hernanriveraluque_fireworks_NewYork_black_red.mp4",
+  "color": ["grey","golden","black","yellow","red"],
+  "topic": ["symbolicElement","cities"],
+  "emotion": ["celebration","beauty","sharing","happiness"],
+  "sequencePosition": ["symbolicElement","climax","preending"],
+  "tags": ["night","fireworks","city","lights","newYork"],
+  "start" : 3,
+  "end" : 13
+},
+
+{
+  "id": "_gancho__little_girl_running_stripes_white.mp4",
+  "color": ["grey","white","black","brown"],
+  "topic": ["infance","cities"],
+  "emotion": ["mystery","beauty","sharing","happiness"],
+  "sequencePosition": ["beggining","development","preending"],
+  "tags": ["girl","running","playing","stripes","newYork"],
+  "start" : 0,
+  "end" : 5
+},
+
+{
+  "id": "_gancho__mother_daugther_playing_brown.mp4",
+  "color": ["blue","white","black","brown"],
+  "topic": ["infance","people"],
+  "emotion": ["playing","love","beauty","sharing","happiness"],
+  "sequencePosition": ["beggining","development"],
+  "tags": ["girl","running","playing","mother","family"],
+  "start" : 1,
+  "end" : 9
+},
+
+{
+  "id": "matiascamusj_stones_boy_jumping.mp4",
+  "color": ["blue","white","black","brown"],
+  "topic": ["infance","people","nature"],
+  "emotion": ["playing","risk","happiness"],
+  "sequencePosition": ["beggining","ending"],
+  "tags": ["boy","stones","playing","jumping","nature"],
+  "start" : 1,
+  "end" : 10
+}
+
+]
+}

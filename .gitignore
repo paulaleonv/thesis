@@ -1,0 +1,8 @@
+.DS_Store
+
+env/
+videos/
+assets/
+render/
+*.mp4
+*.xml

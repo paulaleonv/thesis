@@ -1,0 +1,63 @@
+{
+	"jsonThoughts": [{
+			"id": "myrelationship.mp3",
+			"path": "assets/audio_thoughts/myrelationship.mp3",
+			"female": false,
+			"male": true,
+			"tags": ["relashionship", "people"],
+			"start": 0,
+			"end": 2
+		},
+
+    {
+      "id": "141585__felix-blume__spain-galicia-rosa-aida-and-chisco-singing-together-in-the-kitchen-after-diner-beautiful-galician-voices-in-the-small-village-of-moscoso-galician-countryside-close-to-pontevedra.mp3",
+			"path": "assets/audio_thoughts/141585__felix-blume__spain-galicia-rosa-aida-and-chisco-singing-together-in-the-kitchen-after-diner-beautiful-galician-voices-in-the-small-village-of-moscoso-galician-countryside-close-to-pontevedra.mp3",
+			"female": true,
+      "male": true,
+      "tags": ["language","people","talking","understanding"],
+      "start" : 0,
+      "end" : 6
+    },
+		{
+			"id": "theWayIwasTreated.mp3",
+			"path": "assets/audio_thoughts/theWayIwasTreated.mp3",
+			"female": false,
+			"male": true,
+			"tags": ["relashionship", "people", "treated", "feeling"],
+			"start": 0,
+			"end": 3
+		},
+
+		{
+			"id": "weDidNotTalk2years.mp3",
+			"path": "assets/audio_thoughts/weDidNotTalk2years.mp3",
+			"female": false,
+			"male": true,
+			"tags": ["years", "fight", "two", "talk"],
+			"start": 0,
+			"end": 3
+		},
+
+		{
+			"id": "whoWeAre.mp3",
+			"path": "assets/audio_thoughts/whoWeAre.mp3",
+			"female": false,
+			"male": true,
+			"tags": ["we", "who", "are", "being"],
+			"start": 0,
+			"end": 2
+		},
+
+		{
+			"id": "teenageYears.mp3",
+			"path": "assets/audio_thoughts/teenageYears.mp3",
+			"female": false,
+			"male": true,
+			"tags": ["teen", "age", "teenager", "years"],
+			"start": 0,
+			"end": 4
+
+		}
+
+]
+}

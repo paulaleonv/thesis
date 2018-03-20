@@ -1,0 +1,47 @@
+{
+	"jsonSounds": [
+
+		{
+			"id": "235576__skeetmasterfunk69__breathing.mp3",
+			"path": "assets/audio_thoughts/235576__skeetmasterfunk69__breathing.mp3",
+			"tags": ["breathe", "male"],
+			"start": 0,
+			"end": 8
+		},
+
+		{
+			"id": "266534__ewrnox__breathe-nnfx.mp3",
+			"path": "assets/audio_thoughts/266534__ewrnox__breathe-nnfx.mp3",
+			"tags": ["sound", "space"],
+			"start": 2,
+			"end": 26
+		},
+
+
+		{
+			"id": "324048__equality-x12__wind-soundeffect.mp3",
+			"path": "assets/audio_thoughts/324048__equality-x12__wind-soundeffect.mp3",
+			"tags": ["wind"],
+			"start": 5,
+			"end": 10
+		},
+
+		{
+			"id": "271045__kodack__male-breathing-slow.mp3",
+			"path": "assets/audio_thoughts/271045__kodack__male-breathing-slow.mp3",
+			"tags": ["breathe", "male"],
+			"start": 5,
+			"end": 12
+		},
+
+
+		{
+			"id": "273150__michorvath__heart-beating.mp3",
+			"path": "assets/audio_thoughts/273150__michorvath__heart-beating.mp3",
+			"tags": ["heart", "beat", "beating", "years"],
+			"start": 0,
+			"end": 12
+		}
+
+	]
+}
