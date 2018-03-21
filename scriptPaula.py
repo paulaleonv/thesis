@@ -12,14 +12,7 @@ from pprint import pprint
 
 #a.Select the beggining Video of the sequence related to a tag people will select in a screen. Take the video from videosWater.json in the folder videos
 #b.Select a development video related to any tag in the previous beggining video, and with a color in common with previous video..
-#c.Select a climax, symbolicElement, preending and ending video for the sequence with tag & color in common with previous video.
-
-#2.create nightSequence =[]
-
-#a.select a random audiofile from randomSounds.json (audios are in the folder assets), play it over a black screen (with fade in and fade out).append it to nightSequence
-#b.select a random video from videosWater.json with the tag "abstract", append it to nightSequence.
-#c.select a random audio from the file audio_thoughts.json, append it to  nightSequence
-# append dreamSequence to nightSequence.
+#c.Select a climax, symbolicElement, preending and ending video for the sequence with tag & color in common with previous videos.
 
 #3.Then apply Effects
 #(with fade in and fade out)
@@ -31,8 +24,8 @@ dreamSequence = []
 # source env/bin/activate
 
 def createDreamSequence(pickedTag):
-    # load the json file
-    with open('videosWater.json') as json_data:
+    # load the json file with all videos
+    with open('videos.json') as json_data:
         allVideos = json.load(json_data)
         json_data.close()
 
@@ -40,13 +33,14 @@ def createDreamSequence(pickedTag):
         #print allVideos
 
     selectedTagVideos=[]
-    #select videos with the selected tag
+    #select videos with the pickedTag
     for video in allVideos:
         for tag in video["tags"]:
             if tag == pickedTag:
                 selectedTagVideos.append(video)
 
     shuffle(selectedTagVideos)
+    #porque no me imprime esto?
     #print selectedTagVideos
 
     #select video for beggining
@@ -57,12 +51,13 @@ def createDreamSequence(pickedTag):
             if sequencePosition == "beginning":
                 beginVideos.append(video)
 
-                #print dreamSequence[0]
+                #print dreamSequence
 
     beginning = random.choice(beginVideos)
     dreamSequence.append(beginning)
+    print beginning
 
-    # select video for development, with same color as previous video & a tag in common
+    # select video for development, with same color as previous video & a  a tag in common
 
     colorMatch=[]
 
@@ -74,7 +69,8 @@ def createDreamSequence(pickedTag):
 
     #selectedColor = random.choice(colorMatch)
 
-    #to create relation with all the tags
+    #array to content the tags of the selected video, to create relation with the tags of next videos.
+
     beginningTags= []
     #acumulativeTags= []
     #select all the tags of beggining video
@@ -97,6 +93,7 @@ def createDreamSequence(pickedTag):
 
     development = random.choice(developmentVideos)
     dreamSequence.append(development)
+    #print development
 
     #for video in development:
     #    for tag in video["tags"]:
@@ -113,13 +110,15 @@ def createDreamSequence(pickedTag):
     #        print beginningTags
 
     acumulativeTags= []
-    #select all the tags of development video + begginingTags
+
+    # -*- coding: latin-1 -*-
+    #select all the tags of the previous selected videos. para hacerlo mas simple intente for video in development, pero no acepta
     for video in dreamSequence:
         for tag in video["tags"]:
             acumulativeTags.append(tag)
             #acumulativeTags.append(beginningTags)
 
-            print acumulativeTags
+            #print acumulativeTags
 
     climaxVideos = []
     for video in allVideos:
@@ -131,13 +130,14 @@ def createDreamSequence(pickedTag):
 
     climax = random.choice(climaxVideos)
     dreamSequence.append(climax)
+    #print climax
 
     symbolicElementVideos = []
     for video in allVideos:
         for tag in video["tags"]:
             for sequencePosition in video["sequencePosition"]:
                 for color in video['color']:
-                    if tag in beginningTags and sequencePosition == "symbolicElement" and color in colorMatch:
+                    if tag in acumulativeTags and sequencePosition == "symbolicElement" and color in colorMatch:
                         symbolicElementVideos.append(video)
 
     symbolicElement = random.choice(symbolicElementVideos)
@@ -148,7 +148,7 @@ def createDreamSequence(pickedTag):
         for tag in video["tags"]:
             for sequencePosition in video["sequencePosition"]:
                 for color in video['color']:
-                    if tag in beginningTags and sequencePosition == "preending" and color in colorMatch:
+                    if tag in acumulativeTags and sequencePosition == "preending" and color in colorMatch:
                         preendingVideos.append(video)
 
     preending = random.choice(preendingVideos)
@@ -159,12 +159,14 @@ def createDreamSequence(pickedTag):
         for tag in video["tags"]:
             for sequencePosition in video["sequencePosition"]:
                 for color in video['color']:
-                    if tag in beginningTags and sequencePosition == "ending" and color in colorMatch:
+                    if tag in acumulativeTags and sequencePosition == "ending" and color in colorMatch:
                         endingVideos.append(video)
 
     ending = random.choice(endingVideos)
     dreamSequence.append(ending)
 
+    #print acumulativeTags
+    print dreamSequence
 #print len(dreamSequence)
 
 #function to create the video dreamSequence
@@ -173,9 +175,11 @@ def make_video():
 
     for video in dreamSequence:
 
+        #print dreamSequence
         #print each video of the sequence and tagsself.and colors
 
-        filename = "./videos/" + video['id']
+        #filename = "./videos/" + video['id']
+        filename = video["path"]
         #print video
         #print filename
         clip = Clip(filename, start=video['start'], end= video['end'])
@@ -184,6 +188,7 @@ def make_video():
         print dreamSequence[0]["id"]
         composition = Composition(clips,singletrack=True)
         composition.save('a_13Video.mp4')
+        #composition.preview
 
 #calling function
 createDreamSequence("nature")

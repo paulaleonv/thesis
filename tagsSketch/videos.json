@@ -1,0 +1,1739 @@
+{
+	"videos": [{
+			"id": "discoverocean_whale_jumping.mp4",
+			"path": "videos/discoverocean_whale_jumping.mp4",
+			"color": ["white", "black", "green", "grey"],
+			"topic": ["animals", "water"],
+			"place": ["ocean"],
+			"characters": ["whales"],
+			"emotion": ["pleasure", "excitation", "accomplishment", "fulfilment"],
+			"tags": ["animals", "ocean", "whales", "water", "jumping", "pleasure", "excitation", "accomplishment", "fulfilment"],
+			"sequencePosition": ["beggining", "preending", "ending"],
+			"start": 14,
+			"end": 24,
+			"sound1": true
+		},
+
+		{
+			"id": "graciosita_waterfall_rainbow.mp4",
+			"path": "videos/graciosita_waterfall_rainbow.mp4",
+			"color": ["white", "blue", "green", "grey", "brown", "rainbow"],
+			"topic": ["cascades", "water"],
+			"place": ["river"],
+			"characters": ["nature", "landscape"],
+			"emotion": ["pleasure", "surprise"],
+			"tags": ["nature", "cascade", "rainbow", "river", "water", "nature", "landscape", "pleasure", "surprise"],
+			"sequencePosition": ["beggining", "preending"],
+			"start": 4,
+			"end": 21,
+			"sound1": true
+		},
+
+		{
+			"id": "javiercorrea3_brownwater.mp4",
+			"path": "videos/javiercorrea3_brownwater.mp4",
+			"color": ["green", "brown"],
+			"topic": ["water"],
+			"place": ["river"],
+			"characters": ["nature", "kids"],
+			"emotion": [],
+			"tags": ["nature", "rural", "kids", "river", "water"],
+			"sequencePosition": ["beggining", "development"],
+			"start": 1,
+			"end": 10,
+			"sound1": true
+		},
+
+		{
+			"id": "lelioseb_goldenWater.mp4",
+			"path": "videos/lelioseb_goldenWater.mp4",
+			"color": ["golden", "brown", "yellow"],
+			"topic": ["water"],
+			"place": ["river"],
+			"characters": ["nature", "kids"],
+			"emotion": [],
+			"tags": ["nature", "rural", "kids", "river", "water"],
+			"sequencePosition": ["climax", "symbolicElement"],
+			"cameraMovement": "fixed",
+			"start": 3,
+			"end": 18,
+			"sound1": true
+		},
+
+		{
+			"id": "lelioseb_ocean_boat.mp4",
+			"path": "videos/lelioseb_ocean_boat.mp4",
+			"color": ["blue", "white"],
+			"topic": ["water"],
+			"place": ["ocean", "boat"],
+			"characters": ["water"],
+			"emotion": ["adventure", "pleasure"],
+			"tags": ["ocean", "sea", "water", "river", "boat"],
+			"sequencePosition": ["beginning", "development"],
+			"start": 7,
+			"end": 22,
+			"sound1": true
+
+		},
+
+		{
+			"id": "lisimannn_blue.mp4",
+			"path": "videos/lisimannn_blue.mp4",
+			"color": ["blue"],
+			"topic": ["water"],
+			"place": ["ocean", "underwater"],
+			"characters": ["water"],
+			"emotion": ["discovery", "pleasure"],
+			"tags": ["ocean", "sea", "water", "underwater", "discovery", "pleasure"],
+			"sequencePosition": ["symbolicElement", "preending"],
+			"cameraMovement": "fixed",
+			"start": 1,
+			"end": 6,
+			"sound1": true
+
+		},
+
+		{
+			"id": "matiascamusj_water_algae_white_brown.mp4",
+			"path": "videos/matiascamusj_water_algae_white_brown.mp4",
+			"color": ["white", "grey", "brown"],
+			"topic": ["water"],
+			"place": ["ocean", "beach"],
+			"characters": ["water", "algae"],
+			"emotion": ["movement", "pleasure"],
+			"tags": ["algae", "ocean", "sea", "water", "beach", "movement", "pleasure"],
+			"sequencePosition": ["beginning", "development"],
+			"start": 3,
+			"end": 14,
+			"sound1": true
+
+		},
+
+		{
+			"id": "matiascamusj_water_blue.mp4",
+			"path": "videos/matiascamusj_water_blue.mp4",
+			"color": ["blue", "white", "grey", "blue"],
+			"topic": ["water"],
+			"place": ["ocean", "lake"],
+			"characters": ["water"],
+			"emotion": [],
+			"tags": ["lake", "ocean", "sea", "water"],
+			"sequencePosition": ["development", "preending"],
+			"start": 3,
+			"end": 14,
+			"sound1": true
+		},
+
+		{
+			"id": "natgeo_boat_fog_ghost_grey_.mp4",
+			"path": "videos/natgeo_boat_fog_ghost_grey_.mp4",
+			"color": ["white", "grey"],
+			"topic": ["water"],
+			"place": ["ocean", "lake"],
+			"characters": ["water"],
+			"emotion": [],
+			"tags": ["boat", "fog", "lake", "ocean", "sea", "water"],
+			"sequencePosition": ["beginning", "ending"],
+			"start": 3,
+			"end": 26,
+			"sound1": false
+		},
+
+		{
+			"id": "natgeo_fall.mp4",
+			"path": "videos/natgeo_fall.mp4",
+			"color": ["black", "white", "green"],
+			"topic": ["water"],
+			"place": ["river", "fall", "cascade"],
+			"characters": ["water"],
+			"emotion": [],
+			"tags": ["cascade", "fall", "river", "nature", "sea", "water"],
+			"sequencePosition": ["beginning", "development", "preending"],
+			"start": 4,
+			"end": 14,
+			"sound1": false
+		},
+
+		{
+			"id": "natgeo_falls_aurora_boreal.mp4",
+			"path": "videos/natgeo_falls_aurora_boreal.mp4",
+			"color": ["black", "white", "green", "blue", "yellow"],
+			"topic": ["water"],
+			"place": ["river", "fall", "cascade"],
+			"characters": ["water", "auroraBorealis"],
+			"emotion": [],
+			"tags": ["cascade", "fall", "river", "auroraBorealis", "water"],
+			"sequencePosition": ["beginning", "climax", "preending"],
+			"start": 4,
+			"end": 21,
+			"sound1": true
+		},
+
+		{
+			"id": "natgeo_falls_water_fishes_underwater.mp4",
+			"path": "videos/natgeo_falls_water_fishes_underwater.mp4",
+			"color": ["black", "white", "green", "blue"],
+			"topic": ["water"],
+			"place": ["river", "fall", "cascade", "underwater"],
+			"characters": ["water", "crab"],
+			"emotion": [],
+			"tags": ["cascade", "fall", "river", "crab", "underwater", "water"],
+			"sequencePosition": ["development", "climax", "preending"],
+			"start": 2,
+			"end": 35,
+			"sound1": true
+		},
+
+		{
+			"id": "natgeo_nature_fall_water_green.mp4",
+			"path": "videos/natgeo_nature_fall_water_green.mp4",
+			"color": ["black", "white", "green", "grey"],
+			"topic": ["water"],
+			"place": ["river", "fall", "cascade"],
+			"characters": ["water", "fall"],
+			"emotion": [],
+			"tags": ["cascade", "fall", "river", "water"],
+			"sequencePosition": ["preending"],
+			"start": 2,
+			"end": 8,
+			"sound1": false
+		},
+
+		{
+			"id": "natgeo_rivers_falls_cascades_green_white.mp4",
+			"path": "videos/natgeo_rivers_falls_cascades_green_white.mp4",
+			"color": ["black", "white", "green"],
+			"topic": ["water"],
+			"place": ["river", "fall", "cascade", "underwater"],
+			"characters": ["water", "crab"],
+			"emotion": [],
+			"tags": ["cascade", "fall", "river", "crab", "underwater", "water"],
+			"sequencePosition": ["beginning", "preending"],
+			"start": 3,
+			"end": 10,
+			"sound1": false
+		},
+
+		{
+			"id": "natgeo_water_leaves_light.mp4",
+			"path": "videos/natgeo_water_leaves_light.mp4",
+			"color": ["black", "white", "brown", "grey", "red"],
+			"topic": ["water"],
+			"place": ["river"],
+			"characters": ["water", "leaf"],
+			"emotion": [],
+			"tags": ["leaf", "water", "river"],
+			"sequencePosition": ["beginning", "symbolicElement", "preending"],
+			"start": 0,
+			"end": 13,
+			"sound1": false,
+			"sound2": false
+		},
+
+		{
+			"id": "natgeo_water_leaves_light.mp4",
+			"path": "videos/natgeo_water_leaves_light.mp4",
+			"color": ["black", "white", "brown", "grey", "red"],
+			"topic": ["water"],
+			"place": ["river"],
+			"characters": ["water", "leaf"],
+			"emotion": [],
+			"tags": ["leaf", "water"],
+			"sequencePosition": ["symbolicElement", "preending"],
+			"start": 27,
+			"end": 36,
+			"sound1": false
+		},
+		{
+			"id": "nortonmaza_person_swimming_swimingpool.mp4",
+			"path": "videos/nortonmaza_person_swimming_swimingpool.mp4",
+			"color": ["white", "blue"],
+			"topic": ["water"],
+			"place": ["swimmingpool"],
+			"characters": ["man"],
+			"emotion": [],
+			"tags": ["man", "swimmingpool", "swimming", "water"],
+			"sequencePosition": ["beginning", "development", "preending"],
+			"cameraMovement": "fixed",
+			"start": 1,
+			"end": 5,
+			"sound1": true,
+			"sound2": false
+		},
+
+		{
+			"id": "pepasanmartin_dirty_water.mp4",
+			"path": "videos/pepasanmartin_dirty_water.mp4",
+			"color": ["white", "brown", "grey"],
+			"topic": ["water"],
+			"place": ["city"],
+			"characters": ["water"],
+			"emotion": [],
+			"tags": ["dirty", "water", "city", "water"],
+			"sequencePosition": ["development", "symbolicElement", "preending"],
+			"start": 5,
+			"end": 15,
+			"sound1": true
+		},
+
+		{
+			"id": "viajebeat_ocean.mp4",
+			"path": "videos/viajebeat_ocean.mp4",
+			"color": ["white", "black", "grey", "blue"],
+			"topic": ["water"],
+			"place": ["beach"],
+			"characters": ["water", "waves"],
+			"emotion": [],
+			"tags": ["waves", "sunset", "ocean", "sea", "beach", "water"],
+			"sequencePosition": ["development", "climax", "preending"],
+			"start": 4,
+			"end": 16,
+			"sound1": false
+		},
+
+		{
+			"id": "wilderness_culture_climbing_rock_water_fall_jump_brown.mp4",
+			"path": "videos/wilderness_culture_climbing_rock_water_fall_jump_brown.mp4",
+			"color": ["white", "black", "grey", "brown"],
+			"topic": ["water"],
+			"place": ["cascade", "fall"],
+			"characters": ["man"],
+			"emotion": ["risk", "adventure", "cascade", "fall", "water"],
+			"tags": ["man", "jump", "risk", "adventure", "cascade", "fall", "water"],
+			"sequencePosition": ["ending"],
+			"start": 8,
+			"end": 12,
+			"sound1": true
+		},
+
+		{
+			"id": "wilderness_culture_water_fall_cavern_green_white.mp4",
+			"path": "videos/wilderness_culture_water_fall_cavern_green_white.mp4",
+			"color": ["white", "black", "grey", "green"],
+			"topic": ["water"],
+			"place": ["cascade", "fall"],
+			"characters": ["woman"],
+			"emotion": ["risk", "adventure"],
+			"tags": ["woman", "walking", "cave", "cascade", "fall", "water", "risk", "adventure"],
+			"sequencePosition": ["beggining", "development", "preending"],
+			"start": 2,
+			"end": 14,
+			"sound1": true
+		},
+
+		{
+			"id": "wilderness_culture_water_fall_cavern_green_white.mp4",
+			"path": "videos/wilderness_culture_water_fall_cavern_green_white.mp4",
+			"color": ["white", "black", "grey", "green"],
+			"topic": ["water"],
+			"place": ["cascade", "fall"],
+			"characters": ["woman"],
+			"emotion": ["risk", "adventure"],
+			"tags": ["woman", "walking", "cave", "risk", "adventure", "cascade", "fall", "water"],
+			"sequencePosition": ["beggining", "development", "preending"],
+			"start": 14,
+			"end": 19,
+			"sound1": true
+		},
+
+		{
+			"id": "xx_ice_water.mp4",
+			"path": "videos/xx_ice_water.mp4",
+			"color": ["white", "blue", "grey", "green"],
+			"topic": ["water"],
+			"place": ["ocean", "glaciar"],
+			"characters": ["ice", "water"],
+			"emotion": ["interconnection"],
+			"tags": ["ice", "water", "glaciar", "fall", "interconnection", "ocean"],
+			"sequencePosition": ["climax", "symbolicElement", "preending"],
+			"start": 8,
+			"end": 24,
+			"sound1": true
+		},
+		{
+			"id": "xx_water_white_blue.mp4",
+			"path": "videos/xx_water_white_blue.mp4",
+			"color": ["white", "blue", "grey", "green"],
+			"topic": ["water"],
+			"place": ["swimmingpool"],
+			"characters": ["water"],
+			"emotion": ["interconnection"],
+			"tags": ["water", "swimmingpool", "abstract", "interconnection"],
+			"sequencePosition": ["symbolicElement", "preending"],
+			"start": 15,
+			"end": 30,
+			"sound1": true
+		},
+
+		{
+			"id": "nortonmaza_calles_bicicleta.mp4",
+			"path": "videos/nortonmaza_calles_bicicleta.mp4",
+			"color": ["white", "blue", "grey", "green", "black"],
+			"topic": ["water"],
+			"place": ["city", "river"],
+			"characters": ["city"],
+			"emotion": [],
+			"tags": ["city", "river", "water"],
+			"sequencePosition": ["beginning", "preending"],
+			"start": 0,
+			"end": 5,
+			"sound1": false
+		},
+
+		{
+			"id": "discoverocean_crab_sand_brown_white_red.mp4",
+			"path": "videos/discoverocean_crab_sand_brown_white_red.mp4",
+			"color": ["white", "grey", "green", "red"],
+			"topic": ["animals", "insects"],
+			"place": ["beach"],
+			"characters": ["crab"],
+			"emotion": [],
+			"tags": ["beach", "crab", "shell", "sand", "animals", "insects"],
+			"sequencePosition": ["development", "climax", "preending"],
+			"start": 4,
+			"end": 15,
+			"sound1": true
+		},
+
+		{
+			"id": "discoverocean_crab_sand_brown_white_red.mp4",
+			"path": "videos/discoverocean_crab_sand_brown_white_red.mp4",
+			"color": ["white", "grey", "green", "red"],
+			"topic": ["animals", "insects"],
+			"place": ["beach"],
+			"characters": ["crab"],
+			"emotion": [],
+			"tags": ["beach", "crab", "shell", "sand", "animals", "insects"],
+			"sequencePosition": ["development", "climax", "preending"],
+			"start": 16,
+			"end": 40,
+			"sound1": true
+		},
+
+		{
+			"id": "manuelavieragallo_oceanByNight.mp4",
+			"path": "videos/manuelavieragallo_oceanByNight.mp4",
+			"color": ["black", "blue"],
+			"topic": ["water", "night"],
+			"place": ["beach"],
+			"characters": ["night"],
+			"emotion": [],
+			"tags": ["beach", "night", "ocean", "sea"],
+			"sequencePosition": ["beggining"],
+			"start": 1,
+			"end": 10,
+			"sound1": true
+		},
+
+		{
+			"id": "natgeo_boat_chinese_draws.mp4",
+			"path": "videos/natgeo_boat_chinese_draws.mp4",
+			"color": ["black", "white", "blue"],
+			"topic": ["water"],
+			"place": ["ocean"],
+			"characters": ["boat"],
+			"emotion": [],
+			"tags": ["boat", "chinesse", "ocean", "sea", "water"],
+			"sequencePosition": ["ending"],
+			"start": 4,
+			"end": 40,
+			"sound1": true
+		},
+
+		{
+			"id": "natgeo_dolphins_beach_playing.mp4",
+			"path": "videos/natgeo_dolphins_beach_playing.mp4",
+			"color": ["grey", "white"],
+			"topic": ["water"],
+			"place": ["ocean", "beach"],
+			"characters": ["dolphin", "fish"],
+			"emotion": [],
+			"tags": ["dolphin", "fish", "beach", "sea", "water", "ocean"],
+			"sequencePosition": ["ending"],
+			"start": 1,
+			"end": 12,
+			"sound1": false
+		},
+
+		{
+			"id": "natgeo_ocean_boat_storm_blue_grey_white.mp4",
+			"path": "videos/natgeo_ocean_boat_storm_blue_grey_white.mp4",
+			"color": ["grey", "white", "black", "blue"],
+			"topic": ["water"],
+			"place": ["ocean", "boat"],
+			"characters": ["ocean", "boat"],
+			"emotion": [],
+			"tags": ["boat", "ocean", "beach", "sea", "water"],
+			"sequencePosition": ["beginning"],
+			"start": 3,
+			"end": 13,
+			"sound1": false
+		},
+
+		{
+			"id": "natgeo_window_boat_ocean_black_grey_white_blue.mp4",
+			"path": "videos/natgeo_window_boat_ocean_black_grey_white_blue.mp4",
+			"color": ["grey", "white", "black", "blue"],
+			"topic": ["water"],
+			"place": ["ocean", "boat"],
+			"characters": ["ocean", "boat"],
+			"emotion": [],
+			"tags": ["boat", "ocean", "beach", "sea", "water"],
+			"sequencePosition": ["development", "climax"],
+			"start": 2,
+			"end": 18,
+			"sound1": false
+		},
+
+		{
+			"id": "xx_beach_crowd_people.mp4",
+			"path": "videos/xx_beach_crowd_people.mp4",
+			"color": ["white", "black", "blue", "brown"],
+			"topic": ["water"],
+			"place": ["beach"],
+			"characters": ["people", "crowd"],
+			"emotion": [],
+			"tags": ["people", "ocean", "beach", "sea", "water"],
+			"sequencePosition": ["beginning", "development", "climax"],
+			"start": 8,
+			"end": 16,
+			"sound1": false
+		},
+
+		{
+			"id": "xx_beach_crowd_people.mp4",
+			"path": "videos/xx_beach_crowd_people.mp4",
+			"color": ["white", "black", "blue", "brown"],
+			"topic": ["water"],
+			"place": ["beach"],
+			"characters": ["people", "crowd"],
+			"emotion": [],
+			"tags": ["people", "ocean", "beach", "sea", "water", "crowd"],
+			"sequencePosition": ["preending"],
+			"start": 16,
+			"end": 29,
+			"sound1": false
+		},
+
+		{
+			"id": "xx_beach_crowd_people.mp4",
+			"path": "videos/xx_beach_crowd_people.mp4",
+			"color": ["white", "black", "blue", "grey", "yellow", "red"],
+			"topic": ["water"],
+			"place": ["beach"],
+			"characters": ["waves"],
+			"emotion": [],
+			"tags": ["water", "ocean", "beach", "sea", "waves", "tsunami"],
+			"sequencePosition": ["beginning", "preending"],
+			"start": 3,
+			"end": 12,
+			"sound1": true
+		},
+		{
+			"id": "xx_beach_crowd_people.mp4",
+			"path": "videos/xx_beach_crowd_people.mp4",
+			"color": ["white", "black", "blue", "grey", "yellow", "red"],
+			"topic": ["water"],
+			"place": ["beach"],
+			"characters": ["waves"],
+			"emotion": [],
+			"tags": ["water", "ocean", "beach", "sea", "waves", "tsunami"],
+			"sequencePosition": ["development", "preending"],
+			"start": 17,
+			"end": 24,
+			"sound1": true
+		},
+
+		{
+			"id": "pepasanmartin_feets.mp4",
+			"path": "videos/pepasanmartin_feets.mp4",
+			"color": ["white", "grey", "brown"],
+			"topic": ["water", "feets"],
+			"place": ["beach"],
+			"characters": ["woman"],
+			"emotion": ["sensuality"],
+			"tags": ["water", "sand", "beach", "feets", "nails", "sensuality", "woman", "feets"],
+			"sequencePosition": ["beginning", "development", "climax"],
+			"start": 1,
+			"end": 10,
+			"sound1": true
+		},
+
+		{
+			"id": "natgeo_volcano_orange_red_yellow_black.mp4",
+			"path": "videos/natgeo_volcano_orange_red_yellow_black.mp4",
+			"color": ["black", "red", "orange"],
+			"topic": ["water", "fire"],
+			"place": ["volcano"],
+			"characters": ["volcano"],
+			"emotion": [],
+			"tags": ["fire", "lava", "volcano", "water"],
+			"sequencePosition": ["climax", "symbolicElement"],
+			"start": 10,
+			"end": 23,
+			"sound1": true
+		},
+
+		{
+			"id": "viajebeat_handsTouching.mp4",
+			"path": "videos/viajebeat_handsTouching.mp4",
+			"color": ["black", "white", "grey"],
+			"topic": ["water", "hand"],
+			"place": [""],
+			"characters": ["man"],
+			"emotion": [],
+			"tags": ["hand", "abstract", "touching", "water", "man"],
+			"sequencePosition": ["beginning"],
+			"start": 0,
+			"end": 2,
+			"sound1": true
+		},
+
+		{
+			"id": "discoverocean_hand_shell.mp4",
+			"path": "videos/discoverocean_hand_shell.mp4",
+			"color": ["brown", "white", "green", "red"],
+			"topic": ["water", "hand"],
+			"place": [""],
+			"characters": ["woman", "shell"],
+			"emotion": ["mystery"],
+			"tags": ["hand", "shell", "touching", "woman"],
+			"sequencePosition": ["symbolicElement", "ending"],
+			"start": 2,
+			"end": 8,
+			"sound1": true
+		},
+
+		{
+			"id": "nicolecostany_IndustrialLandscape_white_grey_green.mp4",
+			"path": "videos/nicolecostany_IndustrialLandscape_white_grey_green.mp4",
+			"color": ["brown", "white", "green", "black"],
+			"topic": ["water", "industrialization"],
+			"place": ["city"],
+			"characters": ["city"],
+			"emotion": [""],
+			"tags": ["abstract", "fx", "earthquake", "city", "water", "industrialization"],
+			"sequencePosition": ["beginning", "climax"],
+			"start": 3,
+			"end": 12,
+			"sound1": true
+		},
+
+		{
+			"id": "xx_top_shot_industries_grey_green.mp4",
+			"path": "videos/xx_top_shot_industries_grey_green.mp4",
+			"color": ["brown", "white", "green", "black"],
+			"topic": ["water", "industrialization"],
+			"place": ["city"],
+			"characters": ["industry"],
+			"emotion": [""],
+			"tags": ["industry", "fog"],
+			"sequencePosition": ["climax", "preending", "water", "industrialization", "industry", "fog", "city"],
+			"start": 2,
+			"end": 12,
+			"sound1": false
+		},
+
+		{
+			"id": "xx_top_shot_industries_grey_green.mp4",
+			"path": "videos/xx_top_shot_industries_grey_green.mp4",
+			"color": ["brown", "white", "green", "black"],
+			"topic": ["water", "industrialization"],
+			"place": ["city"],
+			"characters": ["industry"],
+			"emotion": [""],
+			"tags": ["industry", "fog", "water", "industrialization", "city"],
+			"sequencePosition": ["climax", "preending"],
+			"cameraMovement": "airplane",
+			"start": 2,
+			"end": 12,
+			"sound1": false
+		},
+
+		  {
+		    "id": "horaciaa_roller_coaster_horse.mp4",
+				"path": "videos/horaciaa_roller_coaster_horse.mp4",
+				"color": ["white", "black", "blue"],
+				"topic": ["amusement park"],
+				"emotion": ["vertigo", "excitation"],
+				"sequencePosition": ["development"],
+		    "tags": ["kids", "playing","amusement park", "vertigo", "excitation"],
+		    "start" : 0,
+		    "end" : 10,
+		    "sound1": true
+
+		  },
+			{
+				"id": "mariasiebald_montañaRusa.mp4",
+				"path": "videos/mariasiebald_montañaRusa.mp4",
+				"color": ["white", "black", "blue"],
+				"topic": ["amusement park"],
+				"emotion": ["vertigo", "excitation"],
+				"sequencePosition": ["beggining","amusement park","vertigo", "excitation"],
+				"tags": ["kids", "play"],
+		    "start" : 1,
+		    "end" : 13,
+		    "sound1": true
+		  },
+
+
+			{
+				"id": "nicolecostany_autosChocadores.mp4",
+				"path": "videos/nicolecostany_autosChocadores.mp4",
+				"color": ["black", "red"],
+				"topic": ["amusement park"],
+				"emotion": ["vertigo", "excitation","playing"],
+				"sequencePosition": ["development"],
+				"tags": ["cars", "play","vertigo", "excitation","playing","amusement park"],
+		    "start" : 1,
+		    "end" : 10.5,
+		    "sound1": true
+			},
+
+			{
+				"id": "natgeo_games.mp4",
+				"path": "videos/natgeo_games.mp4",
+				"color": ["white","grey", "red"],
+				"topic": ["amusement park"],
+				"emotion": ["vertigo","excitation","playing"],
+				"sequencePosition": ["climax"],
+				"tags": ["kids", "game","amusement park","vertigo", "excitation","playing"],
+		    "start" : 1,
+		    "end" : 12,
+		    "sound1": true
+			},
+
+
+			{
+				"id": "lelioseb_colganteCaleidoscopio.mp4",
+				"path": "videos/lelioseb_colganteCaleidoscopio.mp4",
+				"color": ["black","white","green"],
+				"topic": ["cities"],
+				"emotion": ["mistery", "beauty"],
+				"sequencePosition": ["beggining","development"],
+				"tags": ["city","apartment","cities","mistery", "beauty"],
+		    "start" : 1,
+		    "end" : 13,
+		    "sound1": true
+
+			},
+
+		  {
+				"id": "lelioseb_colganteCaleidoscopio.mp4",
+				"path": "videos/lelioseb_colganteCaleidoscopio.mp4",
+				"color": ["black","white","green"],
+				"topic": ["cities","house"],
+				"emotion": ["mistery", "beauty"],
+				"sequencePosition": ["development","symbolicElement"],
+				"tags": ["city","apartment","abstract","cities","house","mistery", "beauty"],
+		    "start" : 20,
+		    "end" : 32,
+		    "sound1": true
+			},
+
+			{
+				"id": "nicolecostany_car_vaporcalle.mp4",
+				"path": "videos/nicolecostany_car_vaporcalle.mp4",
+				"color": ["white","grey"],
+				"topic": ["cities","people"],
+				"emotion": ["mistery"],
+				"sequencePosition": ["beggining","development"],
+				"tags": ["city","vapor","car","cities","people","mistery"],
+		    "start" : 1,
+		    "end" : 8,
+		    "sound1": true
+			},
+
+			{
+				"id": "viajebeat_smoke.mp4",
+				"path": "videos/viajebeat_smoke.mp4",
+				"color": ["black", "white"],
+				"topic": ["cities"],
+				"emotion": ["mistery"],
+				"sequencePosition": ["development"],
+				"tags": ["vapor","night","mystery","cities"],
+		    "start" : 1,
+		    "end" : 8,
+		    "sound1": true
+			},
+			{
+				"id": "lelioseb_airport_INTRO.mp4",
+				"path": "videos/lelioseb_airport_INTRO.mp4",
+				"color": ["black", "white","grey"],
+				"topic": ["airport"],
+				"emotion": ["mistery","impredictable"],
+				"sequencePosition": ["beggining", "development"],
+				"tags": ["car","city","mistery","impredictable","airport"],
+		    "start" : 0,
+		    "end" : 11.5,
+		    "sound1": true
+			},
+
+			{
+				"id": "lelioseb_AirportArrival_berlin.mp4",
+				"path": "videos/lelioseb_AirportArrival_berlin.mp4",
+				"color": ["black", "white","grey"],
+				"topic": ["airport"],
+				"emotion": ["arrival"],
+				"sequencePosition": ["development"],
+				"tags": ["arrival", "airport"],
+		    "start" : 1,
+		    "end" : 7,
+		    "sound1": true
+			},
+
+			{
+				"id": "matiasbize_airplane.mp4",
+				"path": "videos/matiasbize_airplane.mp4",
+				"color": ["white", "grey"],
+				"topic": ["airport"],
+				"emotion": ["flying"],
+				"sequencePosition": ["development","climax","preending"],
+				"tags": ["overview", "airplane","flying","airport"],
+		    "start" : 2,
+		    "end" : 9,
+		    "sound1": true
+			},
+
+			{
+				"id": "matiasbize_airplaneDeparture.mp4",
+				"path": "videos/matiasbize_airplaneDeparture.mp4",
+				"color": ["black"],
+				"topic": ["airport"],
+				"emotion": ["flying","departure"],
+				"sequencePosition": ["beggining","development","climax","preending"],
+				"tags": ["departure", "airplane", "night","flying","airport"],
+		    "start" : 1,
+		    "end" : 12,
+		    "sound1": true
+			},
+
+			{
+				"id": "matiasbize_airplaneViewCity.mp4",
+				"path": "videos/matiasbize_airplaneViewCity.mp4",
+				"color": ["white", "grey"],
+				"topic": ["cities","airport"],
+				"emotion": ["flying","landing"],
+				"sequencePosition": ["beggining","development","preending"],
+				"tags": ["landing", "airplane", "overview","cities","airport","flying"],
+		    "start" : 2,
+		    "end" : 10,
+		    "sound1": true
+			},
+
+		  {
+				"id": "matiasbize_airplaneViewCity.mp4",
+				"path": "videos/matiasbize_airplaneViewCity.mp4",
+				"color": ["white", "grey"],
+				"topic": ["city","airport"],
+				"emotion": ["flying","landing"],
+				"sequencePosition": ["beggining","development","preending"],
+				"tags": ["landing", "airplane", "overview","city","airport","flying"],
+		    "start" : 8,
+		    "end" : 25,
+		    "sound1": true
+			},
+
+		  {
+		    "id": "matiasbize_airplaneViewCity.mp4",
+				"path": "videos/matiasbize_airplaneViewCity.mp4",
+		    "color": ["white", "grey"],
+		    "topic": ["city","airport"],
+		    "emotion": ["flying","landing"],
+		    "sequencePosition": ["development","preending"],
+		    "tags": ["landing", "airplane", "overview","city","airport","flying"],
+		    "start" : 24,
+		    "end" : 36,
+		    "sound1": true
+		  },
+
+			{
+				"id": "silvanamessinamandelsaft_airplaneView.mp4",
+				"path": "videos/silvanamessinamandelsaft_airplaneView.mp4",
+				"color": ["white", "grey"],
+				"topic": ["airport", "overview","nature"],
+				"emotion": ["flying","greatness"],
+				"sequencePosition": ["development","climax","preending"],
+				"tags": ["mountains", "airplane", "overview","flying","greatness","greatness","airport","nature"],
+		    "start" : 1,
+		    "end" : 11,
+		    "sound1": true
+			},
+
+		  {
+				"id": "silvanamessinamandelsaft_airplaneView.mp4",
+				"path": "videos/silvanamessinamandelsaft_airplaneView.mp4",
+				"color": ["white", "grey"],
+				"topic": ["airport", "overview","nature","landscapes"],
+				"emotion": ["flying","greatness"],
+				"sequencePosition": ["development","climax","preending"],
+				"tags": ["mountains", "airplane", "overview","clouds","rainbow","flying","greatness","airport","nature","landscapes"],
+		    "start" : 13,
+		    "end" : 28,
+		    "sound1": true
+			},
+
+			{
+				"id": "natgeo_airplane_clouds_rainbow.mp4",
+				"path": "videos/natgeo_airplane_clouds_rainbow.mp4",
+				"color": ["white", "grey"],
+				"topic": ["airport", "overview","symbolicElement"],
+				"emotion": ["flying","greatness"],
+				"sequencePosition": ["development","climax","preending"],
+				"tags": ["clouds", "airplane", "rainbow","overview","airport", "flying","greatness","symbolicElement"],
+		    "start" : 1,
+		    "end" : 11,
+		    "sound1": true
+			},
+
+			{
+				"id": "natgeo_airplane_clouds_rainbow.mp4",
+				"path": "videos/natgeo_airplane_clouds_rainbow.mp4",
+				"color": ["white", "grey"],
+				"topic": ["airport", "overview"],
+				"emotion": ["flying","lost"],
+				"sequencePosition": ["development","climax","preending"],
+				"tags": ["clouds", "airplane", "rainbow","airport", "overview","flying","lost"],
+		    "start" : 8,
+		    "end" : 7,
+		    "sound1": true
+			},
+
+			{
+				"id": "gancho_water_bottle_white_grey_blue.mp4",
+				"path": "videos/gancho_water_bottle_white_grey_blue.mp4",
+				"color": ["white", "grey","black","brown"],
+				"topic": ["water", "food"],
+				"emotion": ["flying","greatness"],
+				"sequencePosition": ["development", "symbolicElement", "preending"],
+				"tags": ["bottle","water", "food","flying","greatness"],
+		    "start" : 2,
+		    "end" : 9,
+		    "sound1": true
+			},
+			{
+				"id": "graciosita_waterfall_rainbow.mp4",
+				"path": "videos/graciosita_waterfall_rainbow.mp4",
+				"color": ["white", "blue"],
+				"topic": ["water", "nature"],
+				"emotion": ["flying","greatness"],
+				"sequencePosition": ["development", "symbolicElement", "preending", "ending"],
+				"tags": ["water", "rainbow", "fall", "waterfall","water", "nature","flying","greatness"],
+		    "start" : 1,
+		    "end" : 9,
+		    "sound1": true
+			},
+
+			{
+				"id": "javiercorrea3_brownwater.mp4",
+				"path": "videos/javiercorrea3_brownwater.mp4",
+				"color": ["brown", "blue"],
+				"topic": ["water", "infance"],
+				"emotion": ["playing","dark"],
+				"sequencePosition": ["development"],
+				"tags": ["water","dirty","kids","water","infance","playing","dark"],
+		    "start" : 1,
+		    "end" : 10,
+		    "sound1": true
+			},
+
+			{
+				"id": "lelioseb_goldenWater.mp4",
+				"path": "videos/lelioseb_goldenWater.mp4",
+				"color": ["golden", "yellow"],
+				"topic": ["water", "texture"],
+				"emotion": ["pleasure"],
+				"sequencePosition": ["development","preending"],
+				"tags": ["water", "brilliant"],
+		    "start" : 2,
+		    "end" : 12,
+		    "sound1": true
+			},
+
+		  {
+		    "id": "lelioseb_ocean_boat.mp4",
+				"path": "videos/lelioseb_ocean_boat.mp4",
+		    "color": ["white", "blue"],
+		    "topic": ["water", "ocean"],
+		    "emotion": ["adventure", "trip"],
+		    "sequencePosition": ["development","preending"],
+		    "tags": ["water", "boat","water", "ocean","adventure", "trip"],
+		    "start" : 8,
+		    "end" : 17,
+		    "sound1": true
+		  },
+
+		  {
+		    "id": "matiascamusj_water_algae_white_brown.mp4",
+				"path": "videos/matiascamusj_water_algae_white_brown.mp4",
+		    "color": ["white", "brown"],
+		    "topic": ["water", "beach", "underwater","nature"],
+		    "emotion": ["pleasure", "movement"],
+		    "sequencePosition": ["development","preending"],
+		    "tags": ["water","algae","sand","beach", "underwater","nature","pleasure", "movement"],
+		    "start" : 6,
+		    "end" : 14,
+		    "sound1": true
+		  },
+
+		  {
+		    "id": "natgeo_boat_fog_ghost_grey_.mp4",
+				"path": "videos/natgeo_boat_fog_ghost_grey.mp4",
+		    "color": ["white", "grey","black"],
+		    "topic": ["water", "place"],
+		    "emotion": ["trip", "adventure", "cold"],
+		    "sequencePosition": ["beginning","development"],
+		    "tags": ["boat","lake","river","fog", "vapor","water","place","trip", "adventure","cold"],
+		    "start" : 19,
+		    "end" : 27,
+		    "sound1": true
+		  },
+
+		  {
+		    "id": "natgeo_fall.mp4",
+				"path": "videos/natgeo_fall.mp4",
+		    "color": ["white", "green","black"],
+		    "topic": ["water", "place","nature"],
+		    "emotion": ["adventure", "pleasure"],
+		    "sequencePosition": ["beginning","development","climax","preending"],
+		    "tags": ["water","fall","river","waterfall","place","nature","adventure", "pleasure"],
+		    "start" : 3,
+		    "end" : 15,
+		    "sound1": true
+		  },
+
+		  {
+		    "id": "natgeo_falls_aurora_boreal.mp4",
+				"path": "videos/natgeo_falls_aurora_boreal.mp4",
+		    "color": ["white", "green","black"],
+		    "topic": ["water", "place","nature"],
+		    "emotion": ["beauty", "pleasure", "contemplation"],
+		    "sequencePosition": ["climax","preending","ending"],
+		    "tags": ["water","fall","boreal","waterfall","rainbow","water", "place","nature","beauty", "pleasure", "contemplation"],
+		    "start" : 2,
+		    "end" : 11,
+		    "sound1": true
+		  },
+
+		  {
+		    "id": "natgeo_falls_water_fishes_underwater.mp4",
+				"path": "videos/natgeo_falls_water_fishes_underwater.mp4",
+		    "color": ["white", "blue","black"],
+		    "topic": ["water", "underwater","nature"],
+		    "emotion": ["beauty", "pleasure", "contemplation"],
+		    "sequencePosition": ["beginning","development","climax","preending"],
+		    "tags": ["water","fall","river","waterfall","fish","fishes","water", "underwater","nature","beauty", "pleasure", "contemplation"],
+		    "start" : 5,
+		    "end" : 30,
+		    "sound1": true
+		  },
+
+		  {
+		    "id": "natgeo_nature_fall_water_green.mp4",
+				"path": "videos/natgeo_nature_fall_water_green.mp4",
+		    "color": ["white", "green","black"],
+		    "topic": ["water","nature"],
+		    "emotion": ["greatness"],
+		    "sequencePosition": ["ending"],
+		    "tags": ["water","fall","river","waterfall","nature","greatness"],
+		    "start" : 2,
+		    "end" : 9,
+		    "sound1": true
+		  },
+
+		  {
+		    "id": "natgeo_rivers_falls_cascades_green_white.mp4",
+				"path": "videos/natgeo_rivers_falls_cascades_green_white.mp4",
+		    "color": ["white", "green","black"],
+		    "topic": ["water","nature"],
+		    "emotion": ["greatness","curiosity"],
+		    "sequencePosition": ["beginning","development","preending"],
+		    "tags": ["water","fall","river","waterfall","forest","nature","greatness","curiosity"],
+		    "start" : 3,
+		    "end" : 13,
+		    "sound1": true
+		  },
+
+
+		{
+		  "id": "natgeo_water_leaves_light.mp4",
+			"path": "videos/natgeo_water_leaves_light.mp4",
+		  "color": ["brown", "red","black"],
+		  "topic": ["water","nature"],
+		  "emotion": ["contemplation"],
+		  "sequencePosition": ["development","preending"],
+		  "tags": ["water","leaves","reflection","sun","nature","contemplation"],
+		  "start" : 15,
+		  "end" : 24,
+		  "sound1": true
+		},
+
+		{
+		  "id": "nortonmaza_person_swimming_swimingpool.mp4",
+			"path": "videos/nortonmaza_person_swimming_swimingpool.mp4",
+		  "color": ["white","blue"],
+		  "topic": ["water","people","places"],
+		  "emotion": ["greatness","curiosity"],
+		  "sequencePosition": ["development","climax","preending"],
+		  "tags": ["water","swimmingpool","man","person","people","places","greatness","curiosity"],
+		  "start" : 0,
+		  "end" : 5,
+		  "sound1": true
+		},
+
+		{
+		  "id": "pepasanmartin_dirty_water.mp4",
+			"path": "videos/pepasanmartin_dirty_water.mp4",
+		  "color": ["brown","grey"],
+		  "topic": ["water","places","cities"],
+		  "emotion": ["dirty"],
+		  "sequencePosition": ["development","preending"],
+		  "tags": ["water","dirty","river","city","water","places","cities","dirty"],
+		  "start" : 0,
+		  "end" : 13,
+		  "sound1": true
+		},
+
+		{
+		  "id": "viajebeat_ocean.mp4",
+			"path": "videos/viajebeat_ocean.mp4",
+		  "color": ["black","white"],
+		  "topic": ["water","beach","ocean","nature"],
+		  "emotion": ["mistery","beauty"],
+		  "sequencePosition": ["development","preending"],
+		  "tags": ["water","waves","sunset","beach","ocean","nature","mistery","beauty"],
+		  "start" : 4,
+		  "end" : 14,
+		  "sound1": true
+		},
+
+
+		{
+		  "id": "wilderness_culture_water_fall_cavern_green_white.mp4",
+			"path": "videos/wilderness_culture_water_fall_cavern_green_white.mp4",
+		  "color": ["green","white","black"],
+		  "topic": ["water","people","nature"],
+		  "emotion": ["risk","unknown", "adventure"],
+		  "sequencePosition": ["development","preending"],
+		  "tags": ["water","waterfall","fall","woman","person","cavern","tunnel","people","nature","risk","unknown", "adventure"],
+		  "start" : 1,
+		  "end" : 14,
+		  "sound1": true
+		},
+
+
+		{
+		  "id": "cristobalmuhr_subway.mp4",
+			"path": "videos/cristobalmuhr_subway.mp4",
+		  "color": ["white","black"],
+		  "topic": ["trayectory","cities"],
+		  "emotion": ["movement","destination","travel"],
+		  "sequencePosition": ["beggining","development"],
+		  "tags": ["subway","tunnel","underground","city","train","trayectory","cities","movement","destination","travel"],
+		  "start" : 1,
+		  "end" : 9,
+		  "sound1": true
+		},
+
+		{
+		  "id": "hernanriveraluque_feets_fence.mp4",
+			"path": "videos/hernanriveraluque_feets_fence.mp4",
+		  "color": ["white","black","green"],
+		  "topic": ["trayectory","people","nature"],
+		  "emotion": ["discovery"],
+		  "sequencePosition": ["beggining"],
+		  "tags": ["fence","illusion","opticalIllusion","woman","person","walking","trayectory","people","nature","discovery"],
+		  "start" : 1,
+		  "end" : 10,
+		  "sound1": true
+		},
+
+
+		{
+		  "id": "hernanriveraluque_road_sunset_black_white.mp4",
+			"path": "videos/hernanriveraluque_road_sunset_black_white.mp4",
+		  "color": ["white","black"],
+		  "topic": ["trayectory","cities","industrialization"],
+		  "emotion": ["trip"],
+		  "sequencePosition": ["beggining","development","preending"],
+		  "tags": ["sunset","moving","trayectory","cities","industrialization","trip"],
+		  "start" : 1,
+		  "end" : 10,
+		  "sound1": true
+		},
+
+		{
+		  "id": "lelioseb_carreteraLandscape.mp4",
+			"path": "videos/lelioseb_carreteraLandscape.mp4",
+		  "color": ["white","brown"],
+		  "topic": ["trayectory","nature","industrialization"],
+		  "emotion": ["trip"],
+		  "sequencePosition": ["beggining"],
+		  "tags": ["highhway","countryside","trayectory","nature","industrialization","trip"],
+		  "start" : 1,
+		  "end" : 15,
+		  "sound1": true
+
+		},
+
+		{
+		  "id": "lelioseb_goldenSunset_car.mp4",
+			"path": "videos/lelioseb_goldenSunset_car.mp4",
+		  "color": ["white","black","red","orange"],
+		  "topic": ["trayectory","nature"],
+		  "emotion": ["beauty"],
+		  "sequencePosition": ["climax","preending"],
+		  "tags": ["highhway","sun","sunset","trayectory","nature","beauty"],
+		  "start" : 1,
+		  "end" : 11,
+		  "sound1": true
+		},
+
+		{
+		  "id": "mlelioseb_InsideRails.mp4",
+			"path": "videos/mlelioseb_InsideRails.mp4",
+		  "color": ["black","brown"],
+		  "topic": ["trayectory"],
+		  "emotion": ["enclosure","unknown"],
+		  "sequencePosition": ["beginning","development","preending"],
+		  "tags": ["elevator","tunnel","trayectory","enclosure","unknown"],
+		  "start" : 17,
+		  "end" : 27,
+		  "sound1": true
+		},
+
+		{
+		  "id": "lelioseb_skyClouds.mp4",
+			"path": "videos/lelioseb_skyClouds.mp4",
+		  "color": ["blue","white"],
+		  "topic": ["trayectory"],
+		  "emotion": ["trip","contemplation"],
+		  "sequencePosition": ["development","preending"],
+		  "tags": ["cloud","sky","light","shake","trayectory","trip","contemplation"],
+		  "start" : 4,
+		  "end" : 14,
+		  "sound1": true
+
+		},
+
+		{
+		  "id": "lelioseb_streets.mp4",
+			"path": "videos/lelioseb_streets.mp4",
+		  "color": ["blue","white","grey","black"],
+		  "topic": ["trayectory", "cities"],
+		  "emotion": ["work","urban"],
+		  "sequencePosition": ["development","preending"],
+		  "tags": ["street","building","entrepeuner","trayectory", "cities","work","urban"],
+		  "start" : 4,
+		  "end" : 14,
+		  "sound1": true
+		},
+
+		{
+		  "id": "lelioseb_subway_tunel.mp4",
+			"path": "videos/lelioseb_subway_tunel.mp4",
+		  "color": ["white","brown","black"],
+		  "topic": ["trayectory", "cities"],
+		  "emotion": ["enclosure","travel","unknown"],
+		  "sequencePosition": ["beginning","development","preending"],
+		  "tags": ["tunnel","subway","trayectory", "cities","enclosure","travel","unknown"],
+		  "start" : 1,
+		  "end" : 14,
+		  "sound1": true
+		},
+
+
+		{
+		  "id": "lisimannn_moon_travel_B&W.mp4",
+			"path": "videos/lisimannn_moon_travel_B&W.mp4",
+		  "color": ["white","black","B&W"],
+		  "topic": ["trayectory","space"],
+		  "emotion": ["greatness","unknown"],
+		  "sequencePosition": ["development","preending"],
+		  "tags": ["moon","space","trayectory","space","greatness","unknown"],
+		  "start" : 1,
+		  "end" : 3,
+		  "sound1": true
+		},
+
+		{
+		  "id": "matiasbize_streets.mp4",
+			"path": "videos/matiasbize_streets.mp4",
+		  "color": ["black"],
+		  "topic": ["trayectory","night"],
+		  "emotion": ["greatness","unknown"],
+		  "sequencePosition": ["beginning","development","preending"],
+		  "tags": ["street","night","trayectory","night","greatness","unknown"],
+		  "start" : 1,
+		  "end" : 8,
+		  "sound1": true
+		},
+
+		{
+		  "id": "matiasbize_treesInMovement.mp4",
+			"path": "videos/matiasbize_treesInMovement.mp4",
+		  "color": ["black","white"],
+		  "topic": ["trayectory", "nature","cities"],
+		  "emotion": ["greatness","unknown"],
+		  "sequencePosition": ["beginning","development","preending"],
+		  "tags": ["street","trees","sky","trayectory", "nature","cities","greatness","unknown"],
+		  "start" : 3,
+		  "end" : 10,
+		  "sound1": true
+		},
+
+		{
+		  "id": "matiasbize_tunel.mp4",
+			"path": "videos/matiasbize_tunel.mp4",
+		  "color": ["black","white","grey"],
+		  "topic": ["trayectory", "cities"],
+		  "emotion": ["travel","unknown"],
+		  "sequencePosition": ["development","preending"],
+		  "tags": ["street","tunnel","night","trayectory", "cities","travel","unknown"],
+		  "start" : 1,
+		  "end" : 9.5,
+		  "sound1": true
+		},
+
+		{
+		  "id": "nortonmaza_calles_bicicleta.mp4",
+			"path": "videos/nortonmaza_calles_bicicleta.mp4",
+		  "color": ["white","grey","green"],
+		  "topic": ["trayectory", "cities"],
+		  "emotion": ["travel"],
+		  "sequencePosition": ["development","preending"],
+		  "tags": ["street","bike","ride","trayectory", "cities","travel"],
+		  "start" : 0,
+		  "end" : 5,
+		  "sound1": true
+		},
+
+		{
+		  "id": "nortonmaza_highways_topsshot_buena.mp4",
+			"path": "videos/nortonmaza_highways_topsshot_buena.mp4",
+		  "color": ["black","grey"],
+		  "topic": ["trayectory", "cities"],
+		  "emotion": ["mixture","urban"],
+		  "sequencePosition": ["preending","ending"],
+		  "tags": ["street","highway","night","cars","trayectory", "cities","mixture","urban"],
+		  "start" : 1,
+		  "end" : 9,
+		  "sound1": true
+		},
+
+		{
+		  "id": "nortonmaza_night_road_street.mp4",
+			"path": "videos/nortonmaza_night_road_street.mp4",
+		  "color": ["black","grey","green"],
+		  "topic": ["trayectory", "cities"],
+		  "emotion": ["travel","urban"],
+		  "sequencePosition": ["preending","ending"],
+		  "tags": ["street","bike","ride","night","trayectory","cities","travel","urban"],
+		  "start" : 1,
+		  "end" : 10,
+		  "sound1": true
+		},
+
+		{
+		  "id": "enriqueramirezf_dog&feets.mp4",
+			"path": "videos/enriqueramirezf_dog&feets.mp4",
+		  "color": ["black","brown"],
+		  "topic": ["feets", "animals"],
+		  "emotion": ["playing"],
+		  "sequencePosition": ["development"],
+		  "tags": ["dog","floor","feet", "feets", "animals","playing"],
+		  "start" : 1,
+		  "end" : 10,
+		  "sound1": true
+		},
+
+		{
+		  "id": "eenriqueramirezf_feetsDancing.mp4",
+			"path": "videos/eenriqueramirezf_feetsDancing.mp4",
+		  "color": ["black","brown","white"],
+		  "topic": ["feets", "party"],
+		  "emotion": ["playing", "sharing", "dancing"],
+		  "sequencePosition": ["development","climax"],
+		  "tags": ["feet","friends","floor","shoe","feets","party","playing", "sharing", "dancing"],
+		  "start" : 0,
+		  "end" : 7,
+		  "sound1": true
+		},
+
+		{
+		  "id": "giulifungi_feets_nature_green.mp4",
+			"path": "videos/giulifungi_feets_nature_green.mp4",
+		  "color": ["green","grey","white"],
+		  "topic": ["feets", "nature"],
+		  "emotion": ["exploring", "adventure"],
+		  "sequencePosition": ["development","preending"],
+		  "tags": ["feet","walking","patagonia","grass","shoe","feets", "nature","exploring","adventure"],
+		  "start" : 1,
+		  "end" : 10,
+		  "sound1": true
+		},
+
+		{
+		  "id": "graciosita_feetswalking_stones.mp4",
+			"path": "videos/graciosita_feetswalking_stones.mp4",
+		  "color": ["green","grey","white"],
+		  "topic": ["feets", "cities"],
+		  "emotion": ["exploring", "travel","sharing"],
+		  "sequencePosition": ["development","preending"],
+		  "tags": ["street","walking","stones","friend","shoe","feets","cities","exploring", "travel","sharing"],
+		  "start" : 0,
+		  "end" : 7,
+		  "sound1": true
+		},
+
+		{
+		  "id": "graciosita_feetswalking_stones.mp4",
+			"path": "videos/graciosita_feetswalking_stones.mp4",
+		  "color": ["grey","white"],
+		  "topic": ["feets", "cities"],
+		  "emotion": ["exploring", "travel","sharing"],
+		  "sequencePosition": ["development","preending"],
+		  "tags": ["street","walking","stones","friend","shoe","feets","cities","exploring", "travel","sharing"],
+		  "start" : 1,
+		  "end" : 10,
+		  "sound1": true
+		},
+
+		{
+		  "id": "mariaperlitamusica_womanFeetsGoldenDress.mp4",
+			"path": "videos/mariaperlitamusica_womanFeetsGoldenDress.mp4",
+		  "color": ["black","white","grey","golden"],
+		  "topic": ["feets","cities","party"],
+		  "emotion": ["exploring", "lust"],
+		  "sequencePosition": ["beginning","development","preending"],
+		  "tags": ["street","walking","dress","woman","shoe","feets","cities","party","exploring", "lust"],
+		  "start" : 1,
+		  "end" : 10,
+		  "sound1": true
+		},
+
+		{
+		  "id": "natgeo_feets_insects.mp4",
+			"path": "videos/natgeo_feets_insects.mp4",
+		  "color": ["black","white","grey","brown"],
+		  "topic": ["feets","cities","insects"],
+		  "emotion": ["nigthmare"],
+		  "sequencePosition": ["preending","ending"],
+		  "tags": ["city","man","stone","feets","cities","insects","nigthmare"],
+		  "start" : 1,
+		  "end" : 10,
+		  "sound1": true
+		},
+
+		{
+		  "id": "nortonmaza_piesCaminanCalles.mp4",
+			"path": "videos/nortonmaza_piesCaminanCalles.mp4",
+		  "color": ["black","white","grey","brown"],
+		  "topic": ["feets","cities"],
+		  "emotion": ["exploring", "agency"],
+		  "sequencePosition": ["beginning"],
+		  "tags": ["city","man","shoe","floor","feets","cities","exploring", "agency"],
+		  "start" : 0,
+		  "end" : 6,
+		  "sound1": true
+		},
+
+		{
+		  "id": "nortonmaza_sombraCaminaCalle_asfalto.mp4",
+			"path": "videos/nortonmaza_sombraCaminaCalle_asfalto.mp4",
+		  "color": ["black","white","grey","brown"],
+		  "topic": ["feets","cities"],
+		  "emotion": ["exploring", "agency","adventure"],
+		  "sequencePosition": ["beginning","development"],
+		  "tags": ["city","man","bike","floor","shadow","feets","cities","exploring", "agency","adventure"],
+		  "start" : 1,
+		  "end" : 10,
+		  "sound1": true
+		},
+
+		{
+		  "id": "pepasanmartin_feets.mp4",
+			"path": "videos/pepasanmartin_feets.mp4",
+		  "color": ["white","grey","brown"],
+		  "topic": ["feets","beach"],
+		  "emotion": ["erotic", "resting","pleasure"],
+		  "sequencePosition": ["development","preending"],
+		  "tags": ["feet","skin","sand","feets","beach","erotic", "resting","pleasure"],
+		  "start" : 1,
+		  "end" : 10,
+		  "sound1": true
+		},
+
+		{
+		  "id": "viajebeat_feetsToOcean.mp4",
+			"path": "videos/viajebeat_feetsToOcean.mp4",
+		  "color": ["white","grey","brown"],
+		  "topic": ["feets","beach","water"],
+		  "emotion": ["erotic", "adventure","pleasure"],
+		  "sequencePosition": ["development","climax","preending","ending"],
+		  "tags": ["feet","skin","sand","water","feets","beach","water","erotic", "adventure","pleasure"],
+		  "start" : 2,
+		  "end" : 15,
+		  "sound1": true
+		},
+
+		{
+		  "id": "giulifungi_fire_black_yellow.mp4",
+			"path": "videos/giulifungi_fire_black_yellow.mp4",
+		  "color": ["white","red","black", "yellow","orange","blue"],
+		  "topic": ["fire"],
+		  "emotion": ["mistery"],
+		  "sequencePosition": ["abstract"],
+		  "tags": ["flames","reflection","stones","mistery","fire"],
+		  "start" : 3,
+		  "end" : 15,
+		  "sound1": true
+		},
+
+		{
+		  "id": "matiascamusj_fire.mp4",
+			"path": "videos/matiascamusj_fire.mp4",
+		  "color": ["white","red","black", "yellow","orange"],
+		  "topic": ["fire","nature"],
+		  "emotion": ["mistery", "warm","romantic","erotic","mystical"],
+		  "sequencePosition": ["beginning","development"],
+		  "tags": ["flames","trunk","night","fire","nature","mistery", "warm","romantic","erotic","mystical"],
+		  "start" : 1,
+		  "end" : 14,
+		  "sound1": true
+		},
+
+		{
+		  "id": "natgeo_fire_black_white_yellow.mp4",
+			"path": "videos/natgeo_fire_black_white_yellow.mp4",
+		  "color": ["white","red","black", "yellow","orange"],
+		  "topic": ["fire"],
+		  "emotion": ["mistery", "warm","romantic","erotic","mystical"],
+		  "sequencePosition": ["development","preending"],
+		  "tags": ["flames","trunk","night","fire","mistery", "warm","romantic","erotic","mystical"],
+		  "start" : 0,
+		  "end" : 28,
+		  "sound1": true
+		},
+
+		{
+		  "id": "natgeo_piramids_fire_yellow_red_orange.mp4",
+			"path": "videos/natgeo_piramids_fire_yellow_red_orange.mp4",
+		  "color": ["white","red","black","yellow","orange","brown","blue"],
+		  "topic": ["fire","nature","symbolicElement"],
+		  "emotion": ["mistery", "warm","romantic","erotic","mystical"],
+		  "sequencePosition": ["preending"],
+		  "tags": ["flames","desert","sunset","pyramids","fire","nature","symbolicElement","mistery", "warm","romantic","erotic","mystical"],
+		  "start" : 0,
+		  "end" : 8,
+		  "sound1": true
+		},
+
+		{
+		  "id": "natgeo_volcano_orange_red_yellow_black.mp4",
+			"path": "videos/natgeo_volcano_orange_red_yellow_black.mp4",
+		  "color": ["red","black","yellow","orange","golden"],
+		  "topic": ["fire","nature","symbolicElement"],
+		  "emotion": ["mistery", "warm","romantic","erotic","mystical","deep"],
+		  "sequencePosition": ["climax","preending"],
+		  "tags": ["flames","volcano","night","lava","fire","nature","symbolicElement","mistery", "warm","romantic","erotic","mystical","deep"],
+		  "start" : 0,
+		  "end" : 25,
+		  "sound1": true
+		},
+		{
+		  "id": "nortonmaza_brasas_fire_red_love_black.mp4",
+			"path": "videos/nortonmaza_brasas_fire_red_love_black.mp4",
+		  "color": ["red","black","orange"],
+		  "topic": ["fire","nature","symbolicElement"],
+		  "emotion": ["mistery", "warm","romantic","erotic","mystical","deep"],
+		  "sequencePosition": ["development","climax","preending"],
+		  "tags": ["embers","night","fire","nature","symbolicElement","mistery", "warm","romantic","erotic","mystical","deep"],
+		  "start" : 1,
+		  "end" : 7,
+		  "sound1": true
+		},
+		{
+		  "id": "nortonmaza_brasas_fire_red_love_black.mp4",
+			"path": "videos/nortonmaza_brasas_fire_red_love_black.mp4",
+		  "color": ["red","black","orange"],
+		  "topic": ["fire","nature","symbolicElement"],
+		  "emotion": ["mistery", "warm","romantic","erotic","mystical","deep"],
+		  "sequencePosition": ["development","climax","preending"],
+		  "tags": ["embers","night","fire","nature","symbolicElement","mistery", "warm","romantic","erotic","mystical","deep"],
+		  "start" : 1,
+		  "end" : 7,
+		  "sound1": true
+		},
+
+		{
+		  "id": "silvanamessinamandelsaft_fireCandles.mp4",
+			"path": "videos/silvanamessinamandelsaft_fireCandles.mp4",
+		  "color": ["red","black","orange","white","yellow"],
+		  "topic": ["fire","symbolicElement"],
+		  "emotion": ["mistery", "warm","mystical","rite"],
+		  "sequencePosition": ["development","climax","preending"],
+		  "tags": ["candles","night","flames","rite","fire","symbolicElement","mistery", "warm","mystical","rite"],
+		  "start" : 4,
+		  "end" : 14,
+		  "sound1": true
+		},
+
+		{
+		  "id": "gancho__cloth_orange_grey.mp4",
+			"path": "videos/gancho__cloth_orange_grey.mp4",
+		  "color": ["brown","black","orange","white","grey"],
+		  "topic": ["industrialization"],
+		  "emotion": ["serial", "work"],
+		  "sequencePosition": ["development","symbolicElement"],
+		  "tags": ["cloths","fabric","texture","industrialization","serial","work"],
+		  "start" : 3,
+		  "end" : 10,
+		  "sound1": true
+		},
+
+		{
+		  "id": "brunatruffa_industrialization_white.mp4",
+			"path": "videos/brunatruffa_industrialization_white.mp4",
+		  "color": ["brown","black","white","grey"],
+		  "topic": ["industrialization","cities","trayectory","art"],
+		  "emotion": ["serial", "enclosure"],
+		  "sequencePosition": ["development","symbolicElement","preending"],
+		  "tags": ["city","work","industrialization","cities","trayectory","art","serial",  "enclosure"],
+		  "start" : 0,
+		  "end" : 4,
+		  "sound1": true
+		},
+
+		{
+		  "id": "natgeo_fabric_industry.mp4",
+			"path": "videos/natgeo_fabric_industry.mp4",
+		  "color": ["blue","black","white","grey"],
+		  "topic": ["industrialization","people","crowds"],
+		  "emotion": ["serial","enclosure","alienation","work"],
+		  "sequencePosition": ["development","climax","preending"],
+		  "tags": ["industry","work","industrialization","people","crowds","serial","enclosure","alienation","work"],
+		  "start" : 2,
+		  "end" : 17,
+		  "sound1": true
+		},
+
+		{
+		  "id": "natgeo_industrial_agriculture_green_white.mp4",
+			"path": "videos/natgeo_industrial_agriculture_green_white.mp4",
+		  "color": ["green","black","white","brown"],
+		  "topic": ["industrialization","cities"],
+		  "emotion": ["pollution","enclosure","alienation"],
+		  "sequencePosition": ["development","preending"],
+		  "tags": ["industry","fabric","serial","plants","food","industrialization","cities","pollution","enclosure","alienation"],
+		  "start" : 1,
+		  "end" : 47,
+		  "sound1": true
+		},
+
+		{
+		  "id": "natgeo_industrizalized_city_black_red.mp4",
+			"path": "videos/natgeo_industrizalized_city_black_red.mp4",
+		  "color": ["red","orange","black","white"],
+		  "topic": ["industrialization","nature"],
+		  "emotion": ["serial","enclosure","alienation"],
+		  "sequencePosition": ["development","climax","preending"],
+		  "tags": ["smoke","industry","fabric","serial","fog","city","industrialization","nature","serial","enclosure","alienation"],
+		  "start" : 1,
+		  "end" : 25,
+		  "sound1": true
+		},
+
+		{
+		  "id": "natgeo_industry_cars.mp4natgeo_industry_cars.mp4",
+			"path": "videos/natgeo_industry_cars.mp4natgeo_industry_cars.mp4",
+		  "color": ["red","grey","black","white"],
+		  "topic": ["industrialization","cities"],
+		  "emotion": ["serial","enclosure","alienation"],
+		  "sequencePosition": ["development","preending"],
+		  "tags": ["industry","fabric","serial","cars","industrialization","cities","serial","enclosure","alienation"],
+		  "start" : 1,
+		  "end" : 12,
+		  "sound1": true
+		},
+
+		{
+		  "id": "natgeo_industry_eggs.mp4",
+			"path": "videos/natgeo_industry_eggs.mp4",
+		  "color": ["yellow","grey","black","white"],
+		  "topic": ["industrialization","people"],
+		  "emotion": ["serial","enclosure","alienation"],
+		  "sequencePosition": ["development","preending"],
+		  "tags": ["industry","fabric","serial","man","industrialization","people","serial","enclosure","alienation"],
+		  "start" : 0,
+		  "end" : 6,
+		  "sound1": true
+		},
+
+		{
+		  "id": "natgeo_industry_flow_yellow_blue.mp4",
+			"path": "videos/natgeo_industry_flow_yellow_blue.mp4",
+		  "color": ["yellow","grey","black","blue"],
+		  "topic": ["industrialization"],
+		  "emotion": ["serial","enclosure","alienation"],
+		  "sequencePosition": ["symbolicElement"],
+		  "tags": ["industry","fabric","serial","liquid","industrialization","serial","enclosure","alienation"],
+		  "start" : 7,
+		  "end" : 27,
+		  "sound1": true
+		},
+
+		{
+		  "id": "natgeo_industry_food_white.mp4",
+			"path": "videos/natgeo_industry_food_white.mp4",
+		  "color": ["white","grey","black"],
+		  "topic": ["industrialization","crowds","people","food"],
+		  "emotion": ["serial","enclosure","alienation"],
+		  "sequencePosition": ["development","preending"],
+		  "tags": ["industry","fabric","serial","people","food","industrialization","crowds","serial","enclosure","alienation"],
+		  "start" : 0,
+		  "end" : 8,
+		  "sound1": true
+		},
+
+		{
+		  "id": "natgeo_industry_grey_blue_red_.mp4",
+			"path": "videos/natgeo_industry_grey_blue_red_.mp4",
+		  "color": ["white","grey","black","red","blue"],
+		  "topic": ["industrialization","cities"],
+		  "emotion": ["pollution","enclosure","alienation"],
+		  "sequencePosition": ["development","preending"],
+		  "tags": ["industry","fabric","serial","city","industrialization","cities","pollution","enclosure","alienation"],
+		  "start" : 3,
+		  "end" : 12,
+		  "sound1": true
+		},
+
+		{
+		  "id": "natgeo_landscapes_electricity.mp4",
+			"path": "videos/natgeo_landscapes_electricity.mp4",
+		  "color": ["white","grey","brown","yellow"],
+		  "topic": ["industrialization","landscapes"],
+		  "emotion": ["questions"],
+		  "sequencePosition": ["development"],
+		  "tags": ["desert","landscapes","electricity","industrialization","questions"],
+		  "start" : 1,
+		  "end" : 12,
+		  "sound1": true
+		},
+
+		{
+		  "id": "natgeo_man_running_industrial_agriculture.mp4",
+			"path": "videos/natgeo_man_running_industrial_agriculture.mp4",
+		  "color": ["white","grey","green","red"],
+		  "topic": ["industrialization","landscapes","people","cities"],
+		  "emotion": ["action"],
+		  "sequencePosition": ["beggining"],
+		  "tags": ["industry","man","running","industrialization","landscapes","people","cities","action"],
+		  "start" : 0,
+		  "end" : 16,
+		  "sound1": true
+		}
+
+	]
+}

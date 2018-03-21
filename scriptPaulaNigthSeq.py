@@ -85,7 +85,7 @@ def makeFirstSequence():
         #print nightSequence[0]["id"]
         composition = Composition(clips,singletrack=True)
         composition.save('a_firtsSequence2.mp4')
-        #composition.preview('a_firtsSequence1.mp4')
+        composition.preview('a_firtsSequence1.mp4')
 
 #calling function
 createNightSequence()
