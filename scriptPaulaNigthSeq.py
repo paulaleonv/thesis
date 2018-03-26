@@ -2,6 +2,7 @@ import json
 #esto es un modulo (biblioteca, libreria)
 import glob
 import random
+from random import shuffle
 from vidpy import Clip, Composition
 from pprint import pprint
 
@@ -18,11 +19,6 @@ from pprint import pprint
 #glow
 #etc
 
-#pprint(data)
-#With data, you can now also find values like so:
-#data["masks"]["id"]
-#data["om_points"]
-
 #loading jsons
 #load audio_thoughts.json_data
 
@@ -32,11 +28,16 @@ simpleThoughts = simpleThoughts["jsonThoughts"]
 #print simpleThoughts
 randomSounds = json.load(open('randomSounds.json'))
 randomSounds = randomSounds["jsonSounds"]
-allVideos = json.load(open('videosWater.json'))
+allVideos = json.load(open('videos.json'))
 allVideos = allVideos["videos"]
 
 
 nightSequence = []
+
+shuffle(randomSounds)
+shuffle(simpleThoughts)
+#porque esto no imprime?
+#print randomSounds["id"]
 
 def createNightSequence():
     # load the json file
@@ -44,27 +45,27 @@ def createNightSequence():
     #for audio in randomSounds:
     #    random.choice(audio)
     #    nightSequence.append(audio)
-    nightSequence.append(random.choice(simpleThoughts))
     nightSequence.append(random.choice(randomSounds))
+    #print nightSequence
+    abstractVideos = [video for video in allVideos if "abstract" in video["tags"]]
+    print abstractVideos
+    #for video in allVideos:
+    #    if "abstract" in video["tags"]:
+    #        abstractVideos.append(video)
+
+                #print abstractVideos
+
+    shuffle(abstractVideos)
+    abstractSelected = random.choice(abstractVideos)
+    #abstractSelected2 = random.choice(abstractVideos)
+    #print abstractSelected
+    #nightSequence.append(random.choice(abstractVideos))
+    nightSequence.append(abstractSelected)
+    nightSequence.append(random.choice(simpleThoughts))
     print nightSequence
 
-
-    abstractVideos = []
-    for video in allVideos:
-        for tag in video["tags"]:
-            if tag == "abstract":
-                abstractVideos.append(video)
-
-                print abstractVideos
-
-
-    #abstractSelected = random.choice(abstractVideos)
-    #nightSequence.append(random.choice(abstractVideos))
-    #nightSequence.append(abstractSelected)
-
-
 #function to create the video dreamSequence
-def makeFirstSequence():
+def makeNightSequence():
 
 
     clips=[]
@@ -80,14 +81,18 @@ def makeFirstSequence():
         #print video
         #print filename
         clip = Clip(filename, start=video['start'], end= video['end'])
-        #clip.glow()
+        if "abstract" in video["tags"]:
+            clip.fadein(1)
+            clip.fadeout(1.5)
+        clip.glow()
         clips.append(clip)
+
         #print nightSequence[0]["id"]
-        composition = Composition(clips,singletrack=True)
-        composition.save('a_firtsSequence2.mp4')
-        composition.preview('a_firtsSequence1.mp4')
+    composition = Composition(clips,singletrack=True, width=680, height=680)
+    composition.save('a_firtsSequence2.mp4')
+    #composition.preview()
 
 #calling function
 createNightSequence()
 #create the sequence
-makeFirstSequence()
+makeNightSequence()

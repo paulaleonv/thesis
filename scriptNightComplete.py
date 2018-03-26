@@ -6,42 +6,44 @@ from random import shuffle
 from vidpy import Clip, Composition
 from pprint import pprint
 
-#The program I want to do:
+simpleThoughts = json.load(open('audio_thougths.json', 'r'))
+simpleThoughts = simpleThoughts["jsonThoughts"]
+#print simpleThoughts
+randomSounds = json.load(open('randomSounds.json'))
+randomSounds = randomSounds["jsonSounds"]
+allVideos = json.load(open('videos.json'))
+allVideos = allVideos["videos"]
 
-#1.Create dreamSequence
+shuffle(randomSounds)
+shuffle(simpleThoughts)
 
-#a.Select the beginning Video of the sequence related to a tag people will select in a screen. Take the video from videosWater.json in the folder videos
-#b.Select a development video related to any tag in the previous beginning video, and with a color in common with previous video..
-#c.Select a climax, symbolicElement, preending and ending video for the sequence with tag & color in common with previous videos.
-
-#3.Then apply Effects
-#(with fade in and fade out)
-#glow
-#etc
-
+nightSequence = []
 dreamSequence = []
+mergeSequence = []
 # cd to the folder
 # source env/bin/activate
 
-
-#REFERENCE TO MAKE IT MORE simple
-
-#    abstractVideos = [video for video in allVideos if "abstract" in #video["tags"]]
-#    print abstractVideos
-    #for video in allVideos:
-    #    if "abstract" in video["tags"]:
-    #        abstractVideos.append(video)
-
-                #print abstractVideos
-
-def createDreamSequence(pickedTag):
+def createMergeSequence(pickedTag):
     # load the json file with all videos
     with open('videos.json') as json_data:
         allVideos = json.load(json_data)
         json_data.close()
-
         allVideos = allVideos["videos"]
         #print allVideos
+    mergeSequence.append(random.choice(randomSounds))
+    print mergeSequence
+    abstractVideos = [video for video in allVideos if "abstract" in video["tags"]]
+    print abstractVideos
+    shuffle(abstractVideos)
+    abstractSelected = random.choice(abstractVideos)
+    #abstractSelected2 = random.choice(abstractVideos)
+    #print abstractSelected
+    #nightSequence.append(random.choice(abstractVideos))
+    mergeSequence.append(abstractSelected)
+    mergeSequence.append(random.choice(simpleThoughts))
+    #print nightSequence
+
+
 
     selectedTagVideos=[]
     #select videos with the pickedTag
@@ -69,11 +71,11 @@ def createDreamSequence(pickedTag):
 
                             #print abstractVideos
 
-                    #print dreamSequence
+                    #print mergeSequence
     shuffle(beginVideos)
     beginning = random.choice(beginVideos)
-    dreamSequence.append(beginning)
-    #print beginning
+    mergeSequence.append(beginning)
+    print beginning
 
 
     #print beginVideos
@@ -82,12 +84,12 @@ def createDreamSequence(pickedTag):
         # select video for development, with same color as previous video & a  a tag in common
 
     colorMatch=[]
+    for video in allVideos:
+        for video in beginning:
+            for color in video["color"]:
+                colorMatch.append(color)
 
-    for video in dreamSequence:
-        for color in video["color"]:
-            colorMatch.append(color)
-
-            print color
+                print color
 
 
     #selectedColor = random.choice(colorMatch)
@@ -97,7 +99,7 @@ def createDreamSequence(pickedTag):
     beginningTags= []
                 #acumulativeTags= []
                 #select all the tags of beginning video
-    for video in dreamSequence:
+    for video in mergeSequence:
         for tag in video["tags"]:
             beginningTags.append(tag)
             #why this is notprinting
@@ -130,14 +132,14 @@ def createDreamSequence(pickedTag):
     #print developmentVideosAux2
 
     development = random.choice(developmentVideosAux3)
-    dreamSequence.append(development)
+    mergeSequence.append(development)
     #print development
 
     acumulativeTagsAux1= []
 
     # -*- coding: latin-1 -*-
     #select all the tags of the previous selected videos. para hacerlo mas simple intente for video in development, pero no acepta
-    for video in dreamSequence:
+    for video in mergeSequence:
         for tag in video["tags"]:
                 acumulativeTagsAux1.append(tag)
             #acumulativeTags.append(beginningTags)
@@ -169,14 +171,14 @@ def createDreamSequence(pickedTag):
     #print climaxVideosAux3
 
     climax = random.choice(climaxVideosAux3)
-    dreamSequence.append(climax)
+    mergeSequence.append(climax)
     #print climax
 
     acumulativeTagsAux2= []
 
     # -*- coding: latin-1 -*-
     #select all the tags of the previous selected videos. para hacerlo mas simple intente for video in development, pero no acepta
-    for video in dreamSequence:
+    for video in mergeSequence:
         for tag in video["tags"]:
                 acumulativeTagsAux2.append(tag)
             #acumulativeTags.append(beginningTags)
@@ -209,14 +211,14 @@ def createDreamSequence(pickedTag):
     #print symbolicElementVideosAux3
 
     symbolicElement = random.choice(symbolicElementVideosAux3)
-    dreamSequence.append(symbolicElement)
+    mergeSequence.append(symbolicElement)
     #print symbolicElement
 
     acumulativeTagsAux3= []
 
     # -*- coding: latin-1 -*-
     #select all the tags of the previous selected videos. para hacerlo mas simple intente for video in development, pero no acepta
-    for video in dreamSequence:
+    for video in mergeSequence:
         for tag in video["tags"]:
                 acumulativeTagsAux3.append(tag)
             #acumulativeTags.append(beginningTags)
@@ -249,14 +251,14 @@ def createDreamSequence(pickedTag):
     #print symbolicElementVideosAux3
 
     preending = random.choice(preendingVideosAux3)
-    dreamSequence.append(preending)
+    mergeSequence.append(preending)
     #print symbolicElement
 
     acumulativeTagsAux4= []
 
     # -*- coding: latin-1 -*-
     #select all the tags of the previous selected videos. para hacerlo mas simple intente for video in development, pero no acepta
-    for video in dreamSequence:
+    for video in mergeSequence:
         for tag in video["tags"]:
                 acumulativeTagsAux4.append(tag)
             #acumulativeTags.append(beginningTags)
@@ -288,7 +290,7 @@ def createDreamSequence(pickedTag):
     #print symbolicElementVideosAux3
 
     ending = random.choice(endingVideosAux3)
-    dreamSequence.append(ending)
+    mergeSequence.append(ending)
     #print ending
 
 
@@ -300,12 +302,12 @@ def createDreamSequence(pickedTag):
 
 
 
-    print beginning
-    print development
-    print climax
-    print symbolicElement
-    print preending
-    print ending
+#    print beginning
+#    print development
+#    print climax
+#    print symbolicElement
+#    print preending
+#    print ending
 
 
 
@@ -330,13 +332,13 @@ def createDreamSequence(pickedTag):
 
 
 
-#function to create the video dreamSequence
+#function to create the video mergeSequence
 def make_video():
 
     clips=[]
 
-    for video in dreamSequence:
-        #print dreamSequence
+    for video in mergeSequence:
+        #print mergeSequence
     #print each video of the sequence and tagsself.and colors
 
     #filename = "./videos/" + video['id']
@@ -346,16 +348,58 @@ def make_video():
         clip = Clip(filename, start=video['start'], end= video['end'])
         clip.glow()
         clips.append(clip)
-        print dreamSequence[0]["id"]
+        print mergeSequence[0]["id"]
 
     composition = Composition(clips,singletrack=True)
-    composition.save('a_13Video.mp4')
+    composition.save('mergeVideo2.mp4')
     #composition.preview()
 
 
 
-#calling function
-createDreamSequence("nature")
-#create the sequence
+
+
+
+
+
+
+
+
+
+        # for tag in video["tags"]:
+        #     for sequencePosition in video["sequencePosition"]:
+        #         for color in video['color']:
+        #             if tag in beginningTags and sequencePosition == "development" and color in colorMatch:
+        #                 developmentVideos.append(video)
+
+
+        #print development
+
+        #for video in development:
+        #    for tag in video["tags"]:
+        #        acumulativeTags.append(tag)
+
+
+    #continue like this for the other parts of the sequence ?
+
+        #select all the tags of beginning video
+        #for video in mergeSequence:
+        #    for tag in video["tags"]:
+        #        beginningTags.append(tag)
+
+        #        print beginningTags
+
+
+
+
+
+
+
+
+
+
+
+            #calling function
+createMergeSequence("nature")
+            #create the sequence
 
 make_video()
