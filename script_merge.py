@@ -20,8 +20,11 @@ shuffle(simpleThoughts)
 nightSequence = []
 dreamSequence = []
 mergeSequence = []
+beginning = []
+ending = []
 # cd to the folder
 # source env/bin/activate
+
 
 def createMergeSequence(pickedTag):
     # load the json file with all videos
@@ -286,6 +289,7 @@ def createMergeSequence(pickedTag):
     ending = random.choice(endingVideosAux3)
     mergeSequence.append(ending)
     #print ending
+    mergeSequence.append(random.choice(randomSounds))
 
 
 
@@ -304,11 +308,26 @@ def make_video():
     #print video
     #print filename
         clip = Clip(filename, start=video['start'], end= video['end'])
+        if "abstract" in video["tags"]:
+            clip.fadein(1)
+            clip.fadeout(1.5)
+        for video in beginning:
+            clip.fadein(3)
+        for video in ending:
+            clip.fadeout(1.5)
+        for video in randomSounds:
+            clip.fadein(1)
+            clip.fadeout(1.5)
+
+
+
+
+
         clip.glow()
         clips.append(clip)
         print mergeSequence[0]["id"]
 
-    composition = Composition(clips,singletrack=True, width=680, height=680)
+    composition = Composition(clips,singletrack=True, width=1680, height=1050)
     #composition.save('mergeVideo3.mp4')
     composition.preview()
 
@@ -366,7 +385,7 @@ def make_video():
 
 
             #calling function
-createMergeSequence("earthquake")
+createMergeSequence("sea")
             #create the sequence
 
 make_video()
