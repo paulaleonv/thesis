@@ -295,17 +295,21 @@ def createDreamSequence(pickedTag):
 
 
 
+    for video in allVideos:
+        for sequencePosition in video["sequencePosition"]:
+            if sequencePosition == "beginning":
+                for tag in video["tags"]:
+                    print tag
 
 
 
 
-
-    print beginning
-    print development
-    print climax
-    print symbolicElement
-    print preending
-    print ending
+    #print beginning
+    #print development
+    #print climax
+    #print symbolicElement
+    #print preending
+    #print ending
 
 
 
@@ -349,13 +353,13 @@ def make_video():
         print dreamSequence[0]["id"]
 
     composition = Composition(clips,singletrack=True)
-    composition.save('a_13Video.mp4')
-    #composition.preview()
+    composition.save('a_Video_feets1.mp4')
+    composition.preview()
 
 
 
 #calling function
-createDreamSequence("nature")
+createDreamSequence("feets")
 #create the sequence
 
 make_video()

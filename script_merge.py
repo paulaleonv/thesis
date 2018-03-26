@@ -80,21 +80,8 @@ def createMergeSequence(pickedTag):
 
     #print beginVideos
 
-
-        # select video for development, with same color as previous video & a  a tag in common
-
-    colorMatch=[]
-    for video in allVideos:
-        for video in beginning:
-            for color in video["color"]:
-                colorMatch.append(color)
-
-                print color
-
-
-    #selectedColor = random.choice(colorMatch)
-
-    #array to content the tags of the selected video, to create relation with the tags of next videos.
+    colorMatch = beginning.get('color')
+    print colorMatch
 
     beginningTags= []
                 #acumulativeTags= []
@@ -103,7 +90,7 @@ def createMergeSequence(pickedTag):
         for tag in video["tags"]:
             beginningTags.append(tag)
             #why this is notprinting
-    #print beginningTags
+    print beginningTags
 
 
             #to select a development video
@@ -120,8 +107,9 @@ def createMergeSequence(pickedTag):
 
     developmentVideosAux2 = []
     for video in developmentVideosAux1:
-        if color in colorMatch:
-            developmentVideosAux2.append(video)
+        for color in video["color"]:
+            if color in colorMatch:
+                developmentVideosAux2.append(video)
     #print developmentVideosAux2
 
 
@@ -129,7 +117,7 @@ def createMergeSequence(pickedTag):
     for video in developmentVideosAux2:
         if tag in beginningTags:
             developmentVideosAux3.append(video)
-    #print developmentVideosAux2
+    print developmentVideosAux2
 
     development = random.choice(developmentVideosAux3)
     mergeSequence.append(development)
@@ -147,7 +135,7 @@ def createMergeSequence(pickedTag):
     print acumulativeTagsAux1
     shuffle(acumulativeTagsAux1)
 
-    #to select a climax video
+  #to select a climax video
     climaxVideosAux1 = []
 
     for video in allVideos:
@@ -159,8 +147,9 @@ def createMergeSequence(pickedTag):
 
     climaxVideosAux2 = []
     for video in climaxVideosAux1:
-        if color in colorMatch:
-            climaxVideosAux2.append(video)
+        for color in video["color"]:
+            if color in colorMatch:
+                climaxVideosAux2.append(video)
     #print climaxVideosAux2
 
 
@@ -172,7 +161,8 @@ def createMergeSequence(pickedTag):
 
     climax = random.choice(climaxVideosAux3)
     mergeSequence.append(climax)
-    #print climax
+    print climax
+
 
     acumulativeTagsAux2= []
 
@@ -199,8 +189,9 @@ def createMergeSequence(pickedTag):
 
     symbolicElementVideosAux2 = []
     for video in symbolicElementVideosAux1:
-        if color in colorMatch:
-            symbolicElementVideosAux2.append(video)
+        for color in video["color"]:
+            if color in colorMatch:
+                symbolicElementVideosAux2.append(video)
     #print climaxVideosAux2
 
 
@@ -212,7 +203,8 @@ def createMergeSequence(pickedTag):
 
     symbolicElement = random.choice(symbolicElementVideosAux3)
     mergeSequence.append(symbolicElement)
-    #print symbolicElement
+    print symbolicElement
+
 
     acumulativeTagsAux3= []
 
@@ -239,10 +231,10 @@ def createMergeSequence(pickedTag):
 
     preendingVideosAux2 = []
     for video in preendingVideosAux1:
-        if color in colorMatch:
-            preendingVideosAux2.append(video)
+        for color in video["color"]:
+            if color in colorMatch:
+                preendingVideosAux2.append(video)
     #print climaxVideosAux2
-
 
     preendingVideosAux3 = []
     for video in preendingVideosAux2:
@@ -253,6 +245,7 @@ def createMergeSequence(pickedTag):
     preending = random.choice(preendingVideosAux3)
     mergeSequence.append(preending)
     #print symbolicElement
+
 
     acumulativeTagsAux4= []
 
@@ -278,8 +271,9 @@ def createMergeSequence(pickedTag):
 
     endingVideosAux2 = []
     for video in endingVideosAux1:
-        if color in colorMatch:
-            endingVideosAux2.append(video)
+        for color in video["color"]:
+            if color in colorMatch:
+                endingVideosAux2.append(video)
     #print climaxVideosAux2
 
 
@@ -292,42 +286,6 @@ def createMergeSequence(pickedTag):
     ending = random.choice(endingVideosAux3)
     mergeSequence.append(ending)
     #print ending
-
-
-
-
-
-
-
-
-
-
-#    print beginning
-#    print development
-#    print climax
-#    print symbolicElement
-#    print preending
-#    print ending
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -350,9 +308,9 @@ def make_video():
         clips.append(clip)
         print mergeSequence[0]["id"]
 
-    composition = Composition(clips,singletrack=True)
-    composition.save('mergeVideo2.mp4')
-    #composition.preview()
+    composition = Composition(clips,singletrack=True, width=680, height=680)
+    #composition.save('mergeVideo3.mp4')
+    composition.preview()
 
 
 
@@ -391,15 +349,24 @@ def make_video():
 
 
 
+#    print beginning
+#    print development
+#    print climax
+#    print symbolicElement
+#    print preending
+#    print ending
 
 
+#pendientes
+# fade in and out/
+# agregar un negro.
 
 
 
 
 
             #calling function
-createMergeSequence("nature")
+createMergeSequence("earthquake")
             #create the sequence
 
 make_video()
