@@ -3,5 +3,10 @@ env/
 videos/
 assets/
 render/
+renderOld/
+fake/
+fakeOld/
+*.exe
+*.dmg
 *.mp4
 *.xml

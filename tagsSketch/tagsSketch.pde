@@ -7,17 +7,19 @@ StringList beginningTags = new StringList();
 
 //declare json object
 JSONObject json;
-
-//example numbers inside of the json object
-String[] exampleNumbers = {"example0", "example1"};
-
 String[] videos;
 
 void setup() {
+   size(1080, 800);
+   textFont(createFont("Avenir Next Condensed", 22));
+   fill(0, 102, 153);
+   textAlign(LEFT);
+   background(51);
+   
   //no se como cargarlo, si como json array o como json object. como array me dice que necesita [
   //load the json file
   json = loadJSONObject("videos.json");
-  println("is the json loading!");
+  //println("is the json loading!");
   //println(json);
 
   //retrieve the videos json array
@@ -41,6 +43,7 @@ void setup() {
         //println(videos.getJSONObject(i).getJSONArray("tags"));
         for (int k = 0; k < videos.getJSONObject(i).getJSONArray("tags").size(); k++) {
           println(videos.getJSONObject(i).getJSONArray("tags").getString(k));
+           beginningTags.append(videos.getJSONObject(i).getJSONArray("tags").getString(k));
 
           //just add the tag if the tag is not already in the StringList beginningTags
           //the first one just gets added
@@ -59,16 +62,23 @@ void setup() {
     }
   }
 
+   beginningTags.shuffle();
+   println(beginningTags.size());
 
-  println(beginningTags.size());
-
-  size(1080, 800, P3D);
+  //size(1080, 800, P3D);
   //fullScreen(P3D);
-  noStroke();
-  textFont(createFont("Avenir Next Condensed", 22));
-  textAlign(LEFT);
+  //noStroke();
+  
+  
+   for (int i = 0; i < beginningTags.size(); i++) {
+    //getString(i);
+    
+     text(beginningTags.get(i), 100, 100, 100, 100);  
+     println(beginningTags.get(i));
+     
+  }
 
-  frameRate(30);
+  //frameRate(30);
   //retrieve each example inside of examples
   //JSONObject testVideo = videos[0].getJSONObject("tags");
   //println(testVideo);
@@ -78,24 +88,22 @@ void setup() {
   //String exampleString0 = videos.getString("tags");
   //String exampleString1 = example1.getString("exampleString");
   //println(tags);
-};
+}
 //end of setup
 
 
+
 void draw() {
-};
+ 
+  //String myTags = beginningTags[].get(1);
+  //text(myTags, width/2, height/2);
+  fill(250,250,250);
+  
+  String s = "The quick brown fox jumped over the lazy dog.";
 
-
-
-
-
-
-
-
-
-
-
-
+  text(s, 100, 100, 100, 1180);  
+  
+}
 
 
 
@@ -104,7 +112,6 @@ void draw() {
 //function to select all the tag words in videos.json that in "sequencePosition" has "beginning"
 //create space between the words, take out "," and distribute them in space.
 void showTagWords() {
-
   //iniciacion de for loop y function.
 };
 

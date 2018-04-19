@@ -1,0 +1,82 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8" />
+
+
+
+</head>
+
+<body>
+
+
+
+
+<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCCMRS8jPtvNUy_w5dRqn2xsMZsOmP5SK4",
+    authDomain: "dreamarchive-a89e5.firebaseapp.com",
+    databaseURL: "https://dreamarchive-a89e5.firebaseio.com",
+    projectId: "dreamarchive-a89e5",
+    storageBucket: "dreamarchive-a89e5.appspot.com",
+    messagingSenderId: "138872739434"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="nodeActivator.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-messaging.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-functions.js"></script>
+
+<!-- Leave out Storage -->
+<!-- <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-storage.js"></script> -->
+
+<script>
+  var config = {
+    // ...
+  };
+  firebase.initializeApp(config);
+</script>
+
+</body>
+</html>
+
+// connect to db
+
+// // will be using this somehow
+
+// // Retrieve new posts as they are added to our database
+
+// ref.on("child_added", function(snapshot, prevChildKey) {
+//   var newPost = snapshot.val();
+//   console.log("Author: " + newPost.author);
+//   console.log("Title: " + newPost.title);
+//   console.log("Previous Post ID: " + prevChildKey);
+// });
+//
+
+// execute video gen script wth specific tag
+
+// const { spawn } = require('child_process');
+// const ls = spawn('python', ['script_merge.py', tagname]);
+//
+// ls.stdout.on('data', (data) => {
+//   console.log(`stdout: ${data}`);
+// });
+//
+// ls.stderr.on('data', (data) => {
+//   console.log(`stderr: ${data}`);
+// });
+//
+// ls.on('close', (code) => {
+//   console.log(`child process exited with code ${code}`);
+// });

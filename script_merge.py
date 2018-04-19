@@ -14,16 +14,14 @@ randomSounds = randomSounds["jsonSounds"]
 allVideos = json.load(open('videos.json'))
 allVideos = allVideos["videos"]
 
-shuffle(randomSounds)
-shuffle(simpleThoughts)
-
 nightSequence = []
 dreamSequence = []
 mergeSequence = []
 beginning = []
 ending = []
-# cd to the folder
-# source env/bin/activate
+
+shuffle(randomSounds)
+shuffle(simpleThoughts)
 
 
 def createMergeSequence(pickedTag):
@@ -320,25 +318,13 @@ def make_video():
             clip.fadeout(1.5)
 
 
-
-
-
         clip.glow()
         clips.append(clip)
         print mergeSequence[0]["id"]
 
-    composition = Composition(clips,singletrack=True, width=1680, height=1050)
-    #composition.save('mergeVideo3.mp4')
-    composition.preview()
-
-
-
-
-
-
-
-
-
+    composition = Composition(clips,singletrack=True, width=800, height=800)
+    composition.save('mergeVideo3_nature4.mp4')
+    #composition.preview()
 
 
 
@@ -382,10 +368,7 @@ def make_video():
 
 
 
-
-
             #calling function
-createMergeSequence("sea")
-            #create the sequence
-
+createMergeSequence("nature")
+                #create the sequence
 make_video()
