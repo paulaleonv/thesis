@@ -5,11 +5,7 @@ import random
 from random import shuffle
 from vidpy import Clip, Composition
 from pprint import pprint
-from pythonosc import osc_message_builder
-from pythonosc import udp_client
 import datetime
-
-
 
 simpleThoughts = json.load(open('audio_thougths.json', 'r'))
 simpleThoughts = simpleThoughts["jsonThoughts"]
@@ -19,74 +15,18 @@ randomSounds = randomSounds["jsonSounds"]
 allVideos = json.load(open('videos.json'))
 allVideos = allVideos["videos"]
 
+shuffle(randomSounds)
+shuffle(simpleThoughts)
+
 nightSequence = []
 dreamSequence = []
 mergeSequence = []
 beginning = []
 ending = []
+# cd to the folder
+# source env/bin/activate
 
-
-def restart():
-    shuffle(randomSounds)
-    shuffle(simpleThoughts)
-
-    nightSequence = []
-    dreamSequence = []
-    mergeSequence = []
-    beginning = []
-    ending = []
-    # cd to the folder
-    # source env/bin/activate
-
-
-def processTag(pickedTag):
-#def processTag(allDreamWordAsCSVstring):
-    print (allDreamWordAsCSVstring)
-    # process tags
-    # what should I do if tags are more than one and with commas
-    allBeginningsTags = []
-    allWordsInDream = []
-
-    #from allVideos sequence position, get beginning tags, makes them an array
-    with open('videos.json') as json_data:
-        allVideos = json.load(json_data)
-        json_data.close()
-        allVideos = allVideos["videos"]
-
-    for video in allVideos:
-        if "beginning" in video["sequencePosition"]:
-            for tags in video["tags"]:
-                allBeginningsTags.append(tags)
-                #print (allBeginningsTags)
-
-    print (pickedTag)
-    shuffle(allBeginningsTags)
-
-    #if one word of picked tag is in allBeginningsTags, that word is tag (or pickedtag?)
-
-    for tags in allBeginningsTags:
-        for tag in newVideoTags:
-            if tag in allBeginningsTags:
-                tag = pickedTag
-            #this "tag" is confusing with the finally selected tag
-
-    #if not,
-    #if any word in that array allWordsInDream is in allBeginningsTags, select that word and that word is tag.
-
-    # if not, shuffle and pick a radom word from tag from allBeginningTags., ans that word is tag.
-    #
-    # check if video exits etc
-    #
-    # assuming pickedTag is cow for which videos dont exist
-    # youd prbably want to return a different tag
-
-    tag = "fire"
-    return tag
-
-
-def findTag(words):
-    #words = [w.lower().strip() for w in words]
-
+def processTag():
     allBeginningsTags = []
     with open('videos.json') as json_data:
         allVideos = json.load(json_data)
@@ -97,13 +37,10 @@ def findTag(words):
     for video in allBeginningVideos:
         allBeginningsTags = allBeginningsTags + video['tags']
 
-    randomTag = random.choice(allBeginningsTags)
+    # shuffle(allBeginningsTags)
+    pickedTag = random.choice(allBeginningsTags)
+    return pickedTag
 
-    for word in words:
-        if word in allBeginningsTags:
-            return word
-
-    return randomTag
 
 
 
@@ -117,7 +54,7 @@ def createMergeSequence(pickedTag):
     mergeSequence.append(random.choice(randomSounds))
     #print (mergeSequence)
     abstractVideos = [video for video in allVideos if "abstract" in video["tags"]]
-    #print (abstractVideos)
+    print (abstractVideos)
     shuffle(abstractVideos)
     abstractSelected = random.choice(abstractVideos)
     #abstractSelected2 = random.choice(abstractVideos)
@@ -125,7 +62,7 @@ def createMergeSequence(pickedTag):
     #nightSequence.append(random.choice(abstractVideos))
     mergeSequence.append(abstractSelected)
     mergeSequence.append(random.choice(simpleThoughts))
-    #print nightSequence
+    #print (nightSequence)
 
 
 
@@ -138,7 +75,7 @@ def createMergeSequence(pickedTag):
 
     shuffle(selectedTagVideos)
     #porque no me imprime esto?
-    #print selectedTagVideos
+    #print (selectedTagVideos)
 
 
         #select video for beginning
@@ -155,17 +92,17 @@ def createMergeSequence(pickedTag):
 
                             #print abstractVideos
 
-                    #print mergeSequence
+                    #print (mergeSequence)
     shuffle(beginVideos)
     beginning = random.choice(beginVideos)
     mergeSequence.append(beginning)
-    #print (beginning)
+    print (beginning)
 
 
     #print beginVideos
 
     colorMatch = beginning.get('color')
-    #print (colorMatch)
+    print (colorMatch)
 
     beginningTags= []
                 #acumulativeTags= []
@@ -174,7 +111,7 @@ def createMergeSequence(pickedTag):
         for tag in video["tags"]:
             beginningTags.append(tag)
             #why this is notprinting
-    #print (beginningTags)
+    print (beginningTags)
 
 
             #to select a development video
@@ -201,7 +138,7 @@ def createMergeSequence(pickedTag):
     for video in developmentVideosAux2:
         if tag in beginningTags:
             developmentVideosAux3.append(video)
-    #print (developmentVideosAux2)
+    print (developmentVideosAux2)
 
     development = random.choice(developmentVideosAux3)
     mergeSequence.append(development)
@@ -216,7 +153,7 @@ def createMergeSequence(pickedTag):
                 acumulativeTagsAux1.append(tag)
             #acumulativeTags.append(beginningTags)
 
-    #print (acumulativeTagsAux1)
+    print (acumulativeTagsAux1)
     shuffle(acumulativeTagsAux1)
 
   #to select a climax video
@@ -245,7 +182,7 @@ def createMergeSequence(pickedTag):
 
     climax = random.choice(climaxVideosAux3)
     mergeSequence.append(climax)
-    #print (climax)
+    print (climax)
 
 
     acumulativeTagsAux2= []
@@ -287,7 +224,7 @@ def createMergeSequence(pickedTag):
 
     symbolicElement = random.choice(symbolicElementVideosAux3)
     mergeSequence.append(symbolicElement)
-    #print (symbolicElement)
+    print (symbolicElement)
 
 
     acumulativeTagsAux3= []
@@ -376,9 +313,11 @@ def createMergeSequence(pickedTag):
 
 
 #function to create the video mergeSequence
-def make_video(tag):
+def make_video():
 
     clips=[]
+    blankclip = Clip('black.mp4')
+    clips.append(blankclip)
 
     for video in mergeSequence:
         #print mergeSequence
@@ -387,44 +326,42 @@ def make_video(tag):
     #filename = "./videos/" + video['id']
         filename = video["path"]
     #print video
-    #print filename
+        print(filename)
+        # if filename.endswith('mp3'):
+        #    continue
         clip = Clip(filename, start=video['start'], end= video['end'])
+        # clip.position(x=0, y=0, w='100%', h='100%', distort=True)
+        # clip.fx('crop', {
+        #     'center': 1
+        # })
+        # clip.fx('affine', {
+        #     'transition.geometry': '0/0:640x640',
+        #     'transition.fill': 1,
+        #     'transition.distort': 1,
+        #     'transition.scale': 1,
+        #     'scale': 1
+        # })
+
         if "abstract" in video["tags"]:
             clip.fadein(1)
             clip.fadeout(1.5)
-        for video in beginning:
+        if video in beginning:
             clip.fadein(3)
-        for video in ending:
+        if video in ending:
             clip.fadeout(1.5)
-        for video in randomSounds:
+        if video in randomSounds:
             clip.fadein(1)
             clip.fadeout(1.5)
 
 
         clip.glow()
         clips.append(clip)
-        #print (mergeSequence[0]["id"])
-
-    composition = Composition(clips,singletrack=True, width=800, height=800)
-    #videoName = "render/videoConnected10" + datetime.datetime.now().strftime("%Y%m%d%H%M%S") +".mp4"
-    videoName = "render/video" + tag +  datetime.datetime.now().strftime("%Y%m%d%H%M%S") +".mp4"
-    composition.save(videoName)
+        print (mergeSequence[0]["id"])
+    # clips = clips[0:3]
+    composition = Composition(clips,singletrack=True)
+    videoName = "render/videoMergeClassic" + datetime.datetime.now().strftime("%Y%m%d%H%M%S") +".mp4"
     #composition.save(videoName)
-    #datetime.datetime.now().strftime("%Y%m%d%H%M&S")
-
-    #setup a client (api adress, localhost)
-    client = udp_client.UDPClient("127.0.0.1",8000)
-    print ("testing message")
-
-    #composition.preview()
-
-    #now built the messagingSenderId
-    msg = osc_message_builder.OscMessageBuilder(address="/video")
-    msg.add_arg("nature")
-    msg = msg.build()
-    client.send(msg)
-
-
+    composition.preview()
 
         # for tag in video["tags"]:
         #     for sequencePosition in video["sequencePosition"]:
@@ -464,38 +401,13 @@ def make_video(tag):
 # fade in and out/
 # agregar un negro.
 
-#def createNewVideoSequence(allDreamWordAsCSVstring):
-def createNewVideoSequence(allDreamWordAsCSVstring):
-    # print(allDreamWordAsCSVstring)
-    # allWords = allDreamWordAsCSVstring.split(",")
-    # print("i am in the python script here are the words I am dealing with")
-    # print(allWords)
-    # restart()
-    #
-    #print ("the original tag from the user is ", tag)
-    # #calling function
-    #
-    #processedTag = processTag(tag)
-    #print ("the tag i will use is ", processedTag)
-    #
-    #createMergeSequence(tag)
-    # createMergeSequence("sea")
-    # #create the sequence
-    #
-    allWords = allDreamWordAsCSVstring.split(",")
-    allWords = [w.strip().lower() for w in allWords]
-    allWords = [w for w in allWords if w != ""]
-    tag = findTag(allWords)
-    createMergeSequence(tag)
-    make_video(tag)
 
 
-import sys
 
-#createMergeSequence("nature")
-#createNewVideoSequence(sys.argv[1])
+random_tag = processTag()
 
-if __name__ == '__main__':
-    createNewVideoSequence(sys.argv[1])
-
-    # processTag("nature")
+print(random_tag)
+#calling function
+createMergeSequence(random_tag)
+#create the sequence
+make_video()

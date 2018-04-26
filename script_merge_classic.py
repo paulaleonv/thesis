@@ -30,6 +30,23 @@ ending = []
 # cd to the folder
 # source env/bin/activate
 
+def processTag():
+    with open('videos.json') as json_data:
+        allVideos = json.load(json_data)
+        json_data.close()
+        allVideos = allVideos["videos"]
+        #print allVideos
+    allBeginningVideos = [video for video in allVideos if "beginning" in video["sequencePosition"]]
+
+    allBeginningTags = allBeginningVideos.get('tags')
+    print (allBeginningTags)
+
+
+    shuffle(allBeginningsTags)
+    pickedTag = random.choice(allBeginningsTags)
+
+
+
 
 def createMergeSequence(pickedTag):
     # load the json file with all videos
@@ -377,7 +394,7 @@ def make_video():
 
 
             #calling function
-createMergeSequence("sea")
+createMergeSequence("fire")
             #create the sequence
 
 make_video()
