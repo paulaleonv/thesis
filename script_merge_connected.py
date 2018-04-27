@@ -80,8 +80,8 @@ def processTag(pickedTag):
     # assuming pickedTag is cow for which videos dont exist
     # youd prbably want to return a different tag
 
-    tag = "fire"
-    return tag
+    #tag = "fire"
+    #return tag
 
 
 def findTag(words):
@@ -123,7 +123,7 @@ def createMergeSequence(pickedTag):
     #abstractSelected2 = random.choice(abstractVideos)
     #print abstractSelected
     #nightSequence.append(random.choice(abstractVideos))
-    mergeSequence.append(abstractSelected)
+    #mergeSequence.append(abstractSelected)
     mergeSequence.append(random.choice(simpleThoughts))
     #print nightSequence
 
@@ -392,14 +392,13 @@ def make_video(tag):
         if "abstract" in video["tags"]:
             clip.fadein(1)
             clip.fadeout(1.5)
-        for video in beginning:
+        if video in beginning:
             clip.fadein(3)
-        for video in ending:
+        if video in ending:
             clip.fadeout(1.5)
-        for video in randomSounds:
+        if video in randomSounds:
             clip.fadein(1)
             clip.fadeout(1.5)
-
 
         clip.glow()
         clips.append(clip)
@@ -407,7 +406,8 @@ def make_video(tag):
 
     composition = Composition(clips,singletrack=True, width=800, height=800)
     #videoName = "render/videoConnected10" + datetime.datetime.now().strftime("%Y%m%d%H%M%S") +".mp4"
-    videoName = "render/video" + tag +  datetime.datetime.now().strftime("%Y%m%d%H%M%S") +".mp4"
+    # videoName = "render/video_" + tag +  datetime.datetime.now().strftime("%Y%m%d%H%M%S") +".mp4"
+    videoName = "render/video_" + tag +  datetime.datetime.now().strftime("%Y%m%d%H%M%S") +".mov"
     composition.save(videoName)
     #composition.save(videoName)
     #datetime.datetime.now().strftime("%Y%m%d%H%M&S")
